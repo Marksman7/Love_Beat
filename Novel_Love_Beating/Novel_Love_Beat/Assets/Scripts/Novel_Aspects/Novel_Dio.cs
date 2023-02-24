@@ -63,7 +63,7 @@ public class Novel_Dio : MonoBehaviour
 
         if (dialogue_counter >= dialogue_character.Length)
         {
-            //Start nextModuel or scene
+            ActivateChoices();
         }
         else
         {
@@ -103,5 +103,10 @@ public class Novel_Dio : MonoBehaviour
         }
         character_art[character_number].GetComponent<Image>().color = new Color32(255, 255, 225, 225);
 
+    }
+
+    void ActivateChoices()
+    {
+        this.transform.GetComponent<Choice>().activated();
     }
 }
