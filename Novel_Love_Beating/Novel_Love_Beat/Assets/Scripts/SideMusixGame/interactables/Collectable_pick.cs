@@ -7,6 +7,10 @@ public class Collectable_pick : MonoBehaviour
 
     public float speed = 4;
 
+    private int[] spawn_set= {
+        223, 246, 270
+        };
+
     // Start is called before the first frame update
     void Start()
     {
@@ -15,7 +19,7 @@ public class Collectable_pick : MonoBehaviour
         //-600 = z
 
         //this.transform.position = new Vector3(700, Random.Range(215, 285), -600);
-        this.transform.SetPositionAndRotation(new Vector3(700, Random.Range(215, 285), -600), new Quaternion(0, 0, 0, 0));
+        this.transform.SetPositionAndRotation(new Vector3(700, spawn_set[Random.Range(0,3)], -600), new Quaternion(0, 0, 0, 0));
     }
 
     // Update is called once per frame

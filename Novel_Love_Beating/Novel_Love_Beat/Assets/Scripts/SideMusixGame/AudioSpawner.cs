@@ -20,6 +20,9 @@ public class AudioSpawner : MonoBehaviour
 
     public GameObject unpleasnt_collectable;
 
+
+    public bool activate_filler_spawner = false;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -62,7 +65,10 @@ public class AudioSpawner : MonoBehaviour
             {
                 SampleSize[a].transform.localScale = new Vector3((Simplation[a] * MaxSCale) + 10, (Simplation[a] * MaxSCale) + 6, 10);
 
-                spawning_unpleasnt(a);
+                if (activate_filler_spawner)
+                {
+                    spawning_unpleasnt(a);
+                }
             }
         }
     }
