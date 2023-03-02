@@ -14,7 +14,9 @@ public class Choice : MonoBehaviour
 
     public int[] choices_scene;
 
-    
+    private int next_scren_num = -1;
+
+    public GameObject next_node_set_active;
 
     public void activated()
     {
@@ -66,7 +68,17 @@ public class Choice : MonoBehaviour
 
     void Nextscene(int scene_num)
     {
-        SceneManager.LoadScene(scene_num);
+        if (scene_num == next_scren_num)
+        {
+            player_choices.SetActive(false);
+            next_node_set_active.SetActive(true);
+            this.gameObject.SetActive(false);
+
+        }
+        else
+        {
+            SceneManager.LoadScene(scene_num);
+        }
     }
     
 }

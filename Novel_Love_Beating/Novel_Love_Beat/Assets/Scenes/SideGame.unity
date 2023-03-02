@@ -517,8 +517,9 @@ MonoBehaviour:
   - {fileID: 1270783980777344910, guid: 2d7d01b4b6f9614479adacdc4fd92c91, type: 3}
   spawned_object_type_num: 01000000
   time_line:
-  - 5
+  - 5000
   spawn_on_line: 02000000
+  time_tracker: 0
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0

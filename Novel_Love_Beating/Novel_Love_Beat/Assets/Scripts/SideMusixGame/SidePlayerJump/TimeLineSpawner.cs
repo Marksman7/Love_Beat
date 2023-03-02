@@ -21,6 +21,8 @@ public class TimeLineSpawner : MonoBehaviour
 
     private float time_tracker = 0;
 
+    public float show_time_tracker = 0; //this is here for people to come pare the times
+
     // Start is called before the first frame update
     void Start()
     {
@@ -37,11 +39,13 @@ public class TimeLineSpawner : MonoBehaviour
 
             Time_line_tracker();
         }
+
+        show_time_tracker = time_tracker; // delette this whe final comes
     }
 
     void time_counter()
     {
-        time_tracker = time_tracker + Time.deltaTime;
+        time_tracker = time_tracker + (Time.deltaTime * 1000);
     }
 
     void Time_line_tracker()
