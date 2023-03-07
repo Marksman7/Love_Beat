@@ -18,6 +18,11 @@ TagManager:
   - player_choice_sheet
   - background
   - active_moduel
+  - get_choices_01_button
+  - get_choices_02_button
+  - get_choices_03_button
+  - get_choices_04_button
+  - get_choices_05_button
   layers:
   - Default
   - TransparentFX

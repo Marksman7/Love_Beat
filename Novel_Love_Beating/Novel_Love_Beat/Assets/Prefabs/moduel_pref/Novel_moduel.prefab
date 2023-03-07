@@ -72,5 +72,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d73cb055697c1884195ef567e38635c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  button_choice_title:
+  - 
+  - 
+  - 
+  - 
+  - 
   choices_scene: 00000000000000000100000001000000ffffffff
   next_node_set_active: {fileID: 0}

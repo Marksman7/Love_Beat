@@ -9,6 +9,11 @@ public class Choice : MonoBehaviour
 {
     private GameObject player_choices;
 
+    public string[] button_choice_title;
+
+    private GameObject[] get_choices_button = { null, null, null, null, null };
+
+    private TextMeshProUGUI[] button_text = { null, null, null, null, null };
 
     private Button[] choices = { null, null, null, null, null };
 
@@ -24,7 +29,7 @@ public class Choice : MonoBehaviour
 
     private void Start()
     {
-        Debug.Log(this.gameObject);
+        //Debug.Log(this.gameObject);
         next_scren_num = -1;
 
         player_choices = GameObject.FindGameObjectWithTag("player_choice_sheet");
@@ -35,10 +40,21 @@ public class Choice : MonoBehaviour
         get_choices[3] = GameObject.FindGameObjectWithTag("get_choices_04");
         get_choices[4] = GameObject.FindGameObjectWithTag("get_choices_05");
 
+        get_choices_button[0] = GameObject.FindGameObjectWithTag("get_choices_01_button");
+        get_choices_button[1] = GameObject.FindGameObjectWithTag("get_choices_02_button");
+        get_choices_button[2] = GameObject.FindGameObjectWithTag("get_choices_03_button");
+        get_choices_button[3] = GameObject.FindGameObjectWithTag("get_choices_04_button");
+        get_choices_button[4] = GameObject.FindGameObjectWithTag("get_choices_05_button");
+
         for (int count = 0; count < choices.Length; count++)
         {
+
             choices[count] = get_choices[count].GetComponent<Button>();
-            count = count + 1;
+            button_text[count] = get_choices_button[count].GetComponent<TextMeshProUGUI>();
+            if(button_text[count] != null)
+            {
+                button_text[count].text = button_choice_title[count];
+            }
         }
         player_choices.SetActive(false);
 
@@ -46,7 +62,7 @@ public class Choice : MonoBehaviour
 
     void next()
     {
-        Debug.Log(this.gameObject);
+        //Debug.Log(this.gameObject);
         this.gameObject.SetActive(false);
     }
 
@@ -111,8 +127,8 @@ public class Choice : MonoBehaviour
         if (scene_num == next_scren_num)
         {
 
-            Debug.Log(next_node_set_active);
-            Debug.Log(this.gameObject);
+            //Debug.Log(next_node_set_active);
+            //Debug.Log(this.gameObject);
             this.next_node_set_active.SetActive(true);
             player_choices.GetComponent<button_Choice>().get_new_moduel(wait);
             this.gameObject.SetActive(false);
