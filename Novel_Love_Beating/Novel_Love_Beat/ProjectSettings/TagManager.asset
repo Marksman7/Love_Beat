@@ -6,6 +6,18 @@ TagManager:
   tags:
   - dialogue
   - Collectable
+  - left_char_image
+  - Right_char_image
+  - dialogue_box
+  - character_name_box
+  - get_choices_01
+  - get_choices_02
+  - get_choices_03
+  - get_choices_04
+  - get_choices_05
+  - player_choice_sheet
+  - background
+  - active_moduel
   layers:
   - Default
   - TransparentFX

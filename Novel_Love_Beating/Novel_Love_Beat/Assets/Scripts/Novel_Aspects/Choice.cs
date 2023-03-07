@@ -7,16 +7,48 @@ using TMPro;
 
 public class Choice : MonoBehaviour
 {
-    public GameObject player_choices;
+    private GameObject player_choices;
 
 
-    public Button[] choices;
+    private Button[] choices = { null, null, null, null, null };
+
+    private GameObject[] get_choices = { null, null, null, null, null};
 
     public int[] choices_scene;
 
     private int next_scren_num = -1;
 
     public GameObject next_node_set_active;
+
+    private float wait = .01f;
+
+    private void Start()
+    {
+        Debug.Log(this.gameObject);
+        next_scren_num = -1;
+
+        player_choices = GameObject.FindGameObjectWithTag("player_choice_sheet");
+
+        get_choices[0] = GameObject.FindGameObjectWithTag("get_choices_01");
+        get_choices[1] = GameObject.FindGameObjectWithTag("get_choices_02");
+        get_choices[2] = GameObject.FindGameObjectWithTag("get_choices_03");
+        get_choices[3] = GameObject.FindGameObjectWithTag("get_choices_04");
+        get_choices[4] = GameObject.FindGameObjectWithTag("get_choices_05");
+
+        for (int count = 0; count < choices.Length; count++)
+        {
+            choices[count] = get_choices[count].GetComponent<Button>();
+            count = count + 1;
+        }
+        player_choices.SetActive(false);
+
+    }
+
+    void next()
+    {
+        Debug.Log(this.gameObject);
+        this.gameObject.SetActive(false);
+    }
 
     public void activated()
     {
@@ -39,7 +71,7 @@ public class Choice : MonoBehaviour
         
     }
 
-    
+
 
     public void Button00_click()
     {
@@ -58,6 +90,7 @@ public class Choice : MonoBehaviour
 
     public void Button03_click()
     {
+        
         Nextscene(choices_scene[3]);
     }
 
@@ -66,14 +99,23 @@ public class Choice : MonoBehaviour
         Nextscene(choices_scene[4]);
     }
 
-    void Nextscene(int scene_num)
+    private void nono()
+    {
+        this.next_node_set_active.SetActive(true);
+        this.gameObject.SetActive(false);
+        
+    }
+
+    private void Nextscene(int scene_num)
     {
         if (scene_num == next_scren_num)
         {
-            player_choices.SetActive(false);
-            next_node_set_active.SetActive(true);
-            this.gameObject.SetActive(false);
 
+            Debug.Log(next_node_set_active);
+            Debug.Log(this.gameObject);
+            this.next_node_set_active.SetActive(true);
+            player_choices.GetComponent<button_Choice>().get_new_moduel(wait);
+            this.gameObject.SetActive(false);
         }
         else
         {

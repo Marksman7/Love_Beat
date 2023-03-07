@@ -8,18 +8,42 @@ public class Novel_Dio : MonoBehaviour
 {
     public string[] characters;
     public string[] dialogue_character;
-    public Image Background;
-    public Image[] character_art;
+
+    private GameObject get_background;
+    private Image Background;
+    private Image[] character_art = { null, null};
     public Sprite[] insert_art_character;
     public Sprite insert_art_background;
-    public TextMeshProUGUI dialogue_box;
-    public TextMeshProUGUI character_name_box;
+    private TextMeshProUGUI dialogue_box;
+    private TextMeshProUGUI character_name_box;
+
+    private GameObject get_dialogue_box;
+    private GameObject get_character_name_box;
+
+    private GameObject[] character_art_reteve = { null, null};
 
     private int character_number = 0;
     private int dialogue_counter = 0;
     
     void Start()
     {
+        get_background = GameObject.FindGameObjectWithTag("background");
+        character_art_reteve[0] = GameObject.FindGameObjectWithTag("left_char_image");
+        character_art_reteve[1] = GameObject.FindGameObjectWithTag("Right_char_image");
+
+        get_dialogue_box = GameObject.FindGameObjectWithTag("dialogue_box");
+
+        get_character_name_box = GameObject.FindGameObjectWithTag("character_name_box");
+
+        Background = get_background.GetComponent<Image>();
+
+        character_art[0] = character_art_reteve[0].GetComponent<Image>();
+        character_art[1] = character_art_reteve[1].GetComponent<Image>();
+
+        dialogue_box = get_dialogue_box.GetComponent<TextMeshProUGUI>();
+
+        character_name_box = get_character_name_box.GetComponent<TextMeshProUGUI>();
+
         int im_char = 0;
         foreach(Image im in character_art)
         {
@@ -47,10 +71,10 @@ public class Novel_Dio : MonoBehaviour
 
     void Start_dialogue_line()
     {
-        if(characters[0] != null)
+        /*if(characters[0] != null)
         {
-            Debug.Log("notpe");
-        }
+            //Debug.Log("notpe");
+        }*/
         dialogue_box.text = dialogue_character[0];//dialogue_counter
         character_name_box.text = characters[character_number];//character_number
 

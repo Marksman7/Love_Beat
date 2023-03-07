@@ -23,7 +23,8 @@ public class Player_Points : MonoBehaviour
         if(other.gameObject.CompareTag("Collectable"))
         {
             points = points + 1;
-            other.GetComponent<Collectable_pick>().destory_this();
+            //other.GetComponent<Collectable_pick>().destory_this();
+            Destroy(other);
         }
     }
 }
