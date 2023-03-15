@@ -75,7 +75,7 @@ public class Choice : MonoBehaviour
     {
         for (int q = 0; q < choices.Length; q++)
         {
-            if(choices_scene[q] < -1)
+            if(choices_scene[q] < -1 || button_choice_title[q] == "")
             {
                 get_choices[q].SetActive(false);
             }
