@@ -56,8 +56,30 @@ public class Choice : MonoBehaviour
                 button_text[count].text = button_choice_title[count];
             }
         }
+        inactive_choices();
         player_choices.SetActive(false);
 
+
+        
+    }
+
+    private void active_choices()
+    {
+        foreach(GameObject cho in get_choices)
+        {
+            cho.SetActive(true);
+        }
+    }
+
+    private void inactive_choices()
+    {
+        for (int q = 0; q < choices.Length; q++)
+        {
+            if(choices_scene[q] < -1)
+            {
+                get_choices[q].SetActive(false);
+            }
+        }
     }
 
     void next()
@@ -129,12 +151,15 @@ public class Choice : MonoBehaviour
 
             //Debug.Log(next_node_set_active);
             //Debug.Log(this.gameObject);
+            active_choices();
             this.next_node_set_active.SetActive(true);
             player_choices.GetComponent<button_Choice>().get_new_moduel(wait);
             this.gameObject.SetActive(false);
         }
-        else
+        else if(scene_num > -1)
         {
+
+            active_choices();
             SceneManager.LoadScene(scene_num);
         }
     }
