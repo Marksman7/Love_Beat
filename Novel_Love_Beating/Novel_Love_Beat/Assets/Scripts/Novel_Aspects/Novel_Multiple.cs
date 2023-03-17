@@ -92,7 +92,7 @@ public class Novel_Multiple : MonoBehaviour
         {
             //Debug.Log("notpe");
         }*/
-        dialogue_box.text = dialogue_character[0];//dialogue_counter
+        dialogue_box.text = dialogue_character[0].Remove(0, 1); ;//dialogue_counter
         character_name_box.text = characters[character_number];//character_number
 
         Next_character_art_image();
@@ -108,15 +108,16 @@ public class Novel_Multiple : MonoBehaviour
         }
         else
         {
-            dialogue_box.text = dialogue_character[dialogue_counter];
+            //dialogue_box.text = dialogue_character[dialogue_counter];
             /*int*/
             get_character_num = Int32.Parse(characters[character_number][0].ToString());
 
             /*string*/
             character_name_box.text = characters[Int32.Parse(characters[character_number][0].ToString())];
             temp_string = characters[character_number];
-            temp_string.Remove(0, 1);
-            character_name_box.text = temp_string;
+            //temp_string = temp_string.Remove(0, 1);
+            dialogue_box.text = dialogue_character[dialogue_counter].Remove(0, 1);
+
             Next_character_line();
         }
 
