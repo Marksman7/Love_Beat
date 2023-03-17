@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
+//using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using TMPro;
 
@@ -17,7 +17,11 @@ public class Choice : MonoBehaviour
 
     private Button[] choices = { null, null, null, null, null };
 
-    private GameObject[] get_choices = { null, null, null, null, null};
+    private GameObject[] get_choices = { null, null, null, null, null };
+
+
+    public int[] character_points;
+    public int[] character_number;
 
     public int[] choices_scene;
 
@@ -27,8 +31,12 @@ public class Choice : MonoBehaviour
 
     private float wait = .01f;
 
+    private GameObject hold_points;
+
     private void Start()
     {
+        hold_points = GameObject.FindGameObjectWithTag("hold_ponts");
+
         //Debug.Log(this.gameObject);
         next_scren_num = -1;
 
@@ -113,28 +121,28 @@ public class Choice : MonoBehaviour
 
     public void Button00_click()
     {
-        Nextscene(choices_scene[0]);
+        Nextscene(choices_scene[0], character_number[0], character_points[0]);
     }
 
     public void Button01_click()
     {
-        Nextscene(choices_scene[1]);
+        Nextscene(choices_scene[1], character_number[1], character_points[1]);
     }
 
     public void Button02_click()
     {
-        Nextscene(choices_scene[2]);
+        Nextscene(choices_scene[2], character_number[2], character_points[2]);
     }
 
     public void Button03_click()
     {
         
-        Nextscene(choices_scene[3]);
+        Nextscene(choices_scene[3], character_number[3], character_points[3]);
     }
 
     public void Button04_click()
     {
-        Nextscene(choices_scene[4]);
+        Nextscene(choices_scene[4], character_number[4], character_points[4]);
     }
 
     private void nono()
@@ -144,7 +152,7 @@ public class Choice : MonoBehaviour
         
     }
 
-    private void Nextscene(int scene_num)
+    private void Nextscene(int scene_num, int char_num, int char_point)
     {
         if (scene_num == next_scren_num)
         {
@@ -154,13 +162,17 @@ public class Choice : MonoBehaviour
             active_choices();
             this.next_node_set_active.SetActive(true);
             player_choices.GetComponent<button_Choice>().get_new_moduel(wait);
+            hold_points.GetComponent<Point_Holder>().update_points(char_num, char_point);
             this.gameObject.SetActive(false);
         }
         else if(scene_num > -1)
         {
 
             active_choices();
-            SceneManager.LoadScene(scene_num);
+            //call point script
+            //SceneManager.LoadScene(scene_num);
+
+            hold_points.GetComponent<Point_Holder>().Next_scene(scene_num, char_num, char_point);
         }
     }
     

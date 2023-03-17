@@ -23,6 +23,7 @@ TagManager:
   - get_choices_03_button
   - get_choices_04_button
   - get_choices_05_button
+  - hold_ponts
   layers:
   - Default
   - TransparentFX
