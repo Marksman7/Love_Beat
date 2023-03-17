@@ -93,7 +93,7 @@ public class Novel_Multiple : MonoBehaviour
             //Debug.Log("notpe");
         }*/
         dialogue_box.text = dialogue_character[0].Remove(0, 1); ;//dialogue_counter
-        character_name_box.text = characters[character_number];//character_number
+        character_name_box.text = characters[get_character_num];//character_number
 
         Next_character_art_image();
     }
@@ -110,11 +110,14 @@ public class Novel_Multiple : MonoBehaviour
         {
             //dialogue_box.text = dialogue_character[dialogue_counter];
             /*int*/
-            get_character_num = Int32.Parse(characters[character_number][0].ToString());
+
+
+
+            get_character_num = Int32.Parse(dialogue_character[character_number][0].ToString());
 
             /*string*/
-            character_name_box.text = characters[Int32.Parse(characters[character_number][0].ToString())];
-            temp_string = characters[character_number];
+            character_name_box.text = characters[Int32.Parse(dialogue_character[character_number][0].ToString())];
+            temp_string = characters[get_character_num];
             //temp_string = temp_string.Remove(0, 1);
             dialogue_box.text = dialogue_character[dialogue_counter].Remove(0, 1);
 
@@ -145,12 +148,12 @@ public class Novel_Multiple : MonoBehaviour
         if(character_number == 0)
         {
             character_art[0].GetComponent<Image>().color = new Color32(255, 255, 225, 75);
-            character_art[1].GetComponent<Image>().color = new Color32(255, 255, 225, 225);
+            character_art[1].GetComponent<Image>().color = new Color32(255, 255, 225, 255);
         }
         else
         {
             character_art[1].GetComponent<Image>().color = new Color32(255, 255, 225, 75);
-            character_art[0].GetComponent<Image>().color = new Color32(255, 255, 225, 225);
+            character_art[0].GetComponent<Image>().color = new Color32(255, 255, 225, 255);
         }
 
     }
