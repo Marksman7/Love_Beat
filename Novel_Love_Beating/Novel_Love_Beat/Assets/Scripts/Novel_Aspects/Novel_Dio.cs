@@ -27,6 +27,11 @@ public class Novel_Dio : MonoBehaviour
     
     void Start()
     {
+        Start_up();
+    }
+
+    public void Start_up()
+    {
         get_background = GameObject.FindGameObjectWithTag("background");
         character_art_reteve[0] = GameObject.FindGameObjectWithTag("left_char_image");
         character_art_reteve[1] = GameObject.FindGameObjectWithTag("Right_char_image");
@@ -45,14 +50,14 @@ public class Novel_Dio : MonoBehaviour
         character_name_box = get_character_name_box.GetComponent<TextMeshProUGUI>();
 
         int im_char = 0;
-        foreach(Image im in character_art)
+        foreach (Image im in character_art)
         {
             im.sprite = insert_art_character[im_char];
             im_char = im_char + 1;
         }
         Background.sprite = insert_art_background;
 
-        if(dialogue_box == null)
+        if (dialogue_box == null)
         {
             Debug.Log("There is no dialogue_box connected");
         }
@@ -131,6 +136,7 @@ public class Novel_Dio : MonoBehaviour
 
     void ActivateChoices()
     {
+        dialogue_counter = 0;
         this.transform.GetComponent<Choice>().activated();
     }
 }

@@ -32,6 +32,13 @@ public class Novel_Multiple : MonoBehaviour
 
     void Start()
     {
+        //Start_up();
+    }
+
+    public void Start_up()
+    {
+        
+
         get_background = GameObject.FindGameObjectWithTag("background");
         character_art_reteve[0] = GameObject.FindGameObjectWithTag("left_char_image");
         character_art_reteve[1] = GameObject.FindGameObjectWithTag("Right_char_image");
@@ -64,12 +71,12 @@ public class Novel_Multiple : MonoBehaviour
         }*/
         character_art[0].sprite = insert_art_character[0];
         character_art[1].sprite = insert_art_character[0];
-        
+
 
 
         Background.sprite = insert_art_background;
 
-        if(dialogue_box == null)
+        if (dialogue_box == null)
         {
             Debug.Log("There is no dialogue_box connected");
         }
@@ -160,6 +167,7 @@ public class Novel_Multiple : MonoBehaviour
 
     void ActivateChoices()
     {
+        dialogue_counter = 0;
         this.transform.GetComponent<Choice>().activated();
     }
 }

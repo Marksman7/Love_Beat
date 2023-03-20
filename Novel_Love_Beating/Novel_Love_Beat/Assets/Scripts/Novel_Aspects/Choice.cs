@@ -29,11 +29,17 @@ public class Choice : MonoBehaviour
 
     public GameObject[] next_node_set_active;
 
-    private float wait = .01f;
+    private float wait = .05f;
 
     private GameObject hold_points;
 
     private void Start()
+    {
+        Start_up();
+    }
+
+
+    public void Start_up()
     {
         hold_points = GameObject.FindGameObjectWithTag("hold_ponts");
 
@@ -59,16 +65,30 @@ public class Choice : MonoBehaviour
 
             choices[count] = get_choices[count].GetComponent<Button>();
             button_text[count] = get_choices_button[count].GetComponent<TextMeshProUGUI>();
-            if(button_text[count] != null)
+            if (button_text[count] != null)
             {
                 button_text[count].text = button_choice_title[count];
             }
         }
         inactive_choices();
         player_choices.SetActive(false);
+    }
 
+    public void Next_start_up()
+    {
+        for (int count = 0; count < choices.Length; count++)
+        {
 
-        
+            choices[count] = get_choices[count].GetComponent<Button>();
+            button_text[count] = get_choices_button[count].GetComponent<TextMeshProUGUI>();
+            if (button_text[count] != null)
+            {
+                button_text[count].text = button_choice_title[count];
+            }
+        }
+
+        inactive_choices();
+        player_choices.SetActive(false);
     }
 
     private void active_choices()

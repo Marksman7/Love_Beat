@@ -244,6 +244,10 @@ PrefabInstance:
       propertyPath: button_choice_title.Array.data[4]
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778549, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: next_node_set_active.Array.data[0]
+      value: 
+      objectReference: {fileID: 2843476548235536044}
     - target: {fileID: 2843476546552778550, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
       propertyPath: m_Name
       value: Novel_moduel (1)
@@ -465,7 +469,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2843476546552778549, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
       propertyPath: button_choice_title.Array.data[4]
-      value: 
+      value: here
       objectReference: {fileID: 0}
     - target: {fileID: 2843476546552778549, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
       propertyPath: next_node_set_active.Array.data[0]
@@ -800,6 +804,30 @@ PrefabInstance:
       propertyPath: next_node_set_active
       value: 
       objectReference: {fileID: 1142105114}
+    - target: {fileID: 5773993169614518545, guid: d73ca75c59a6c7943985b83280d9e3f3, type: 3}
+      propertyPath: choices_scene.Array.data[2]
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5773993169614518545, guid: d73ca75c59a6c7943985b83280d9e3f3, type: 3}
+      propertyPath: next_node_set_active.Array.data[0]
+      value: 
+      objectReference: {fileID: 1142105114}
+    - target: {fileID: 5773993169614518545, guid: d73ca75c59a6c7943985b83280d9e3f3, type: 3}
+      propertyPath: next_node_set_active.Array.data[1]
+      value: 
+      objectReference: {fileID: 1142105114}
+    - target: {fileID: 5773993169614518545, guid: d73ca75c59a6c7943985b83280d9e3f3, type: 3}
+      propertyPath: next_node_set_active.Array.data[2]
+      value: 
+      objectReference: {fileID: 1142105114}
+    - target: {fileID: 5773993169614518545, guid: d73ca75c59a6c7943985b83280d9e3f3, type: 3}
+      propertyPath: next_node_set_active.Array.data[3]
+      value: 
+      objectReference: {fileID: 1142105114}
+    - target: {fileID: 5773993169614518545, guid: d73ca75c59a6c7943985b83280d9e3f3, type: 3}
+      propertyPath: next_node_set_active.Array.data[4]
+      value: 
+      objectReference: {fileID: 252246198}
     - target: {fileID: 5773993169614518546, guid: d73ca75c59a6c7943985b83280d9e3f3, type: 3}
       propertyPath: m_Name
       value: Novel_moduel_multi

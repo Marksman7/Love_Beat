@@ -26,6 +26,17 @@ public class button_Choice : MonoBehaviour
     private void wait_here()
     {
         get_moduel = GameObject.FindGameObjectWithTag("active_moduel");
+        if(get_moduel.GetComponent<Novel_Dio>() != null)
+        {
+            get_moduel.GetComponent<Novel_Dio>().Start_up();
+        }
+        else
+        {
+            get_moduel.GetComponent<Novel_Multiple>().Start_up();
+        }
+
+        //get_moduel.GetComponent<Choice>().Start_up();
+        get_moduel.GetComponent<Choice>().Next_start_up();
     }
 
     public void Button00_click()
