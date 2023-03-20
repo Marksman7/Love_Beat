@@ -242,7 +242,7 @@ PrefabInstance:
       objectReference: {fileID: 252246198}
     - target: {fileID: 2843476546552778549, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
       propertyPath: button_choice_title.Array.data[4]
-      value: fsy
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 2843476546552778550, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
       propertyPath: m_Name
@@ -444,25 +444,49 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2843476546552778549, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: next_node_set_active.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778549, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
       propertyPath: button_choice_title.Array.data[0]
-      value: Scrifice Steve, blood for the blood god, skulls for the skull throne
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 2843476546552778549, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
       propertyPath: button_choice_title.Array.data[1]
-      value: Don't eat Steve, and break up
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 2843476546552778549, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
       propertyPath: button_choice_title.Array.data[2]
-      value: break up then Eat Steve
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 2843476546552778549, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
       propertyPath: button_choice_title.Array.data[3]
-      value: Plan E-7 [Go to bathroom and exit through window]
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 2843476546552778549, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
       propertyPath: button_choice_title.Array.data[4]
-      value: Make Plans for another date
+      value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778549, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: next_node_set_active.Array.data[0]
+      value: 
+      objectReference: {fileID: 2843476548235536044}
+    - target: {fileID: 2843476546552778549, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: next_node_set_active.Array.data[1]
+      value: 
+      objectReference: {fileID: 2843476548235536044}
+    - target: {fileID: 2843476546552778549, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: next_node_set_active.Array.data[2]
+      value: 
+      objectReference: {fileID: 2843476548235536044}
+    - target: {fileID: 2843476546552778549, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: next_node_set_active.Array.data[3]
+      value: 
+      objectReference: {fileID: 2843476548235536044}
+    - target: {fileID: 2843476546552778549, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: next_node_set_active.Array.data[4]
+      value: 
+      objectReference: {fileID: 2843476548235536044}
     - target: {fileID: 2843476546552778550, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
       propertyPath: m_Name
       value: Novel_moduel
@@ -796,6 +820,10 @@ PrefabInstance:
     - target: {fileID: 9205498934728569376, guid: 443a78173fc80fa40a0d04616544436b, type: 3}
       propertyPath: m_Name
       value: Canvas_Background
+      objectReference: {fileID: 0}
+    - target: {fileID: 9205498934728569378, guid: 443a78173fc80fa40a0d04616544436b, type: 3}
+      propertyPath: m_PresetInfoIsWorld
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9205498934728569380, guid: 443a78173fc80fa40a0d04616544436b, type: 3}
       propertyPath: m_Pivot.x

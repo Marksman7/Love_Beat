@@ -79,4 +79,9 @@ MonoBehaviour:
   character_points: 0000000000000000000000000000000000000000
   character_number: 0000000000000000000000000000000000000000
   choices_scene: 00000000000000000100000001000000ffffffff
-  next_node_set_active: {fileID: 0}
+  next_node_set_active:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
