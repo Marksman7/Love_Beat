@@ -45,7 +45,7 @@ public class TimeLineSpawner : MonoBehaviour
 
     void time_counter()
     {
-        time_tracker = time_tracker + (Time.deltaTime * 1000);
+        time_tracker = time_tracker + (Time.deltaTime);
     }
 
     void Time_line_tracker()
@@ -59,7 +59,7 @@ public class TimeLineSpawner : MonoBehaviour
 
     void spawn_object()
     {
-        Instantiate(Collectables[spawned_object_type_num[time_track_counter] - 1], transform.TransformPoint(700, spawn_set[spawn_on_line[time_track_counter] - 1], -600), new Quaternion(0, 0, 0, 0));
+        Instantiate(Collectables[spawned_object_type_num[time_track_counter]], transform.TransformPoint(700, spawn_set[spawn_on_line[time_track_counter] - 1], -600), new Quaternion(0, 0, 0, 0));
     }
 
 

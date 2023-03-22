@@ -32,7 +32,7 @@ public class Novel_Multiple : MonoBehaviour
 
     void Start()
     {
-        //Start_up();
+        Start_up();
     }
 
     public void Start_up()
@@ -123,7 +123,9 @@ public class Novel_Multiple : MonoBehaviour
             get_character_num = Int32.Parse(dialogue_character[character_number][0].ToString());
 
             /*string*/
-            character_name_box.text = characters[Int32.Parse(dialogue_character[character_number][0].ToString())];
+            Debug.Log(character_name_box);
+            Debug.Log(get_character_num);
+            character_name_box.text = characters[get_character_num];
             temp_string = characters[get_character_num];
             //temp_string = temp_string.Remove(0, 1);
             dialogue_box.text = dialogue_character[dialogue_counter].Remove(0, 1);
