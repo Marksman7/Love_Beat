@@ -70,7 +70,7 @@ public class Novel_Multiple : MonoBehaviour
             
         }*/
         character_art[0].sprite = insert_art_character[0];
-        character_art[1].sprite = insert_art_character[0];
+        character_art[1].sprite = insert_art_character[1];
 
 
 
@@ -107,7 +107,7 @@ public class Novel_Multiple : MonoBehaviour
 
     void Next_dialogue_line()
     {
-        dialogue_counter = dialogue_counter + 1;
+        
 
         if (dialogue_counter >= dialogue_character.Length)
         {
@@ -117,10 +117,9 @@ public class Novel_Multiple : MonoBehaviour
         {
             //dialogue_box.text = dialogue_character[dialogue_counter];
             /*int*/
+            
 
-
-
-            get_character_num = Int32.Parse(dialogue_character[character_number][0].ToString());
+            get_character_num = Int32.Parse(dialogue_character[dialogue_counter][0].ToString());
 
             /*string*/
             Debug.Log(character_name_box);
@@ -131,6 +130,8 @@ public class Novel_Multiple : MonoBehaviour
             dialogue_box.text = dialogue_character[dialogue_counter].Remove(0, 1);
 
             Next_character_line();
+
+            dialogue_counter = dialogue_counter + 1;
         }
 
     }
