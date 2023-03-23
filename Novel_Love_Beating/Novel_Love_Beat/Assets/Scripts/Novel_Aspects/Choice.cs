@@ -70,6 +70,18 @@ public class Choice : MonoBehaviour
                 button_text[count].text = button_choice_title[count];
             }
         }
+
+        for(int next_obj = 0; next_obj < next_node_set_active.Length; next_obj++)
+        {
+            if (next_node_set_active[next_obj] == null)
+            {
+                if(next_node_set_active[0] != null)
+                {
+                    next_node_set_active[next_obj] = next_node_set_active[0];
+                }
+            }
+        }
+
         inactive_choices();
         player_choices.SetActive(false);
     }

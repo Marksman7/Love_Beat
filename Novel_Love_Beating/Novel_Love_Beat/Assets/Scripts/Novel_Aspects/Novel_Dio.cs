@@ -49,14 +49,19 @@ public class Novel_Dio : MonoBehaviour
 
         character_name_box = get_character_name_box.GetComponent<TextMeshProUGUI>();
 
-        int im_char = 0;
-        foreach (Image im in character_art)
-        {
-            im.sprite = insert_art_character[im_char];
-            im_char = im_char + 1;
-        }
-        Background.sprite = insert_art_background;
+        /* int im_char = 0;
+         foreach (Image im in character_art)
+         {
+             im.sprite = insert_art_character[im_char];
+             im_char = im_char + 1;
+         }
+         */
 
+        character_art[0].sprite = insert_art_character[0];
+        character_art[1].sprite = insert_art_character[1];
+
+        Background.sprite = insert_art_background;
+        
         if (dialogue_box == null)
         {
             Debug.Log("There is no dialogue_box connected");
@@ -88,7 +93,7 @@ public class Novel_Dio : MonoBehaviour
 
     void Next_dialogue_line()
     {
-        dialogue_counter = dialogue_counter + 1;
+        //dialogue_counter = dialogue_counter + 1;
 
         if (dialogue_counter >= dialogue_character.Length)
         {
@@ -96,6 +101,8 @@ public class Novel_Dio : MonoBehaviour
         }
         else
         {
+            dialogue_counter = dialogue_counter + 1;
+
             dialogue_box.text = dialogue_character[dialogue_counter];
             Next_character_line();
         }
