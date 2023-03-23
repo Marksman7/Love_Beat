@@ -137,13 +137,19 @@ public class Novel_Dio : MonoBehaviour
         {
             character_art[character_number - 1].GetComponent<Image>().color = new Color32(255, 255, 225, 75);
         }
-        character_art[character_number].GetComponent<Image>().color = new Color32(255, 255, 225, 225);
+        character_art[character_number].GetComponent<Image>().color = new Color32(255, 255, 225, 255);
 
     }
 
     void ActivateChoices()
     {
-        dialogue_counter = 0;
+        //dialogue_counter = 0;
         this.transform.GetComponent<Choice>().activated();
+    }
+
+
+    public void Reset_dialouge_counter()
+    {
+        dialogue_counter = 0;
     }
 }

@@ -173,7 +173,13 @@ public class Novel_Multiple : MonoBehaviour
 
     void ActivateChoices()
     {
-        dialogue_counter = 0;
+        //dialogue_counter = 0;
         this.transform.GetComponent<Choice>().activated();
+    }
+
+
+    public void Reset_dialouge_counter()
+    {
+        dialogue_counter = 0;
     }
 }
