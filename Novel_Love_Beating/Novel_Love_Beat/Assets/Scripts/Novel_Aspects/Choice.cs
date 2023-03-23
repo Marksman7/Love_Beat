@@ -226,6 +226,14 @@ public class Choice : MonoBehaviour
             }
             player_choices.GetComponent<button_Choice>().get_new_moduel(wait);
             hold_points.GetComponent<Point_Holder>().update_points(char_num, char_point);
+            if(this.gameObject.GetComponent<Novel_Multiple>() != null)
+            {
+                this.gameObject.GetComponent<Novel_Multiple>().Reset_dialouge_counter();
+            }
+            else if(this.gameObject.GetComponent<Novel_Dio>() != null)
+            {
+                this.gameObject.GetComponent<Novel_Dio>().Reset_dialouge_counter();
+            }
             this.gameObject.SetActive(false);
         }
         else if(scene_num > -1)
