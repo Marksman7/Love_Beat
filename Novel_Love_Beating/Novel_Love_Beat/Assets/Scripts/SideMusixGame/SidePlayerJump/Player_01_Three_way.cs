@@ -10,6 +10,8 @@ public class Player_01_Three_way : MonoBehaviour
 
     private bool inaction_animation = false;
 
+    private bool down_active = false;
+
     public float speed = 6;
 
     public bool in_motion = false;
@@ -30,6 +32,11 @@ public class Player_01_Three_way : MonoBehaviour
             find_target_move();
             stop_moving();
             //Debug.Log("check");
+        }
+        else if(down_active == true)
+        {
+            //Debug.Log("check");
+            check_move_down();
         }
         else
         {
@@ -67,12 +74,8 @@ public class Player_01_Three_way : MonoBehaviour
         {
             move_up();
         }
-        else if ((stay_on_target - 1) < this.gameObject.transform.position.y && stay_on_target != move_set[2])
-        {
-            move_down();
-        }
     }
-
+    
     private void move_up()
     {
         this.transform.Translate(0, speed * Time.deltaTime, 0);
@@ -83,6 +86,18 @@ public class Player_01_Three_way : MonoBehaviour
         this.transform.Translate(0, -speed * Time.deltaTime, 0);
     }
 
+    private void check_move_down()
+    {
+        if(move_set[0] < this.gameObject.transform.position.y)
+        {
+            move_down();
+        }
+        else
+        {
+            down_active = false;
+        }
+    }
+
     private void stop_moving()
     {
         if (move_set[0] == stay_on_target)
@@ -91,13 +106,15 @@ public class Player_01_Three_way : MonoBehaviour
             {
 
                 in_motion = false;
+                //down_active = true;
             }
         }
         else if (move_set[1] == stay_on_target)
         {
-            if ((move_set[0] > this.gameObject.transform.position.y))
+            if ((move_set[1] < this.gameObject.transform.position.y))
             {
                 in_motion = false;
+                down_active = true;
             }
         }
         else if (move_set[2] == stay_on_target)
@@ -106,6 +123,7 @@ public class Player_01_Three_way : MonoBehaviour
             {
 
                 in_motion = false;
+                down_active = true;
             }
         }
     }
