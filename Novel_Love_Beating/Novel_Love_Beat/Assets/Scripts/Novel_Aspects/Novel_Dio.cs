@@ -101,9 +101,10 @@ public class Novel_Dio : MonoBehaviour
         }
         else
         {
-            dialogue_counter = dialogue_counter + 1;
+            
 
             dialogue_box.text = dialogue_character[dialogue_counter];
+            dialogue_counter = dialogue_counter + 1;
             Next_character_line();
         }
 

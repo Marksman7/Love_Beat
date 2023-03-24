@@ -99,8 +99,12 @@ public class Novel_Multiple : MonoBehaviour
         {
             //Debug.Log("notpe");
         }*/
-        dialogue_box.text = dialogue_character[0].Remove(0, 1); ;//dialogue_counter
-        character_name_box.text = characters[get_character_num];//character_number
+
+        //dialogue_box.text = dialogue_character[0].Remove(0, 1); ;//dialogue_counter
+        dialogue_box.text = "";
+
+        //character_name_box.text = characters[get_character_num];//character_number
+        character_name_box.text = "";
 
         Next_character_art_image();
     }
