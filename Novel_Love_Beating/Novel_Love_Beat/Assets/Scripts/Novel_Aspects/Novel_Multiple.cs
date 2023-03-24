@@ -162,6 +162,14 @@ public class Novel_Multiple : MonoBehaviour
         if(character_number == 0)
         {
             character_art[1].sprite = insert_art_character[get_character_num];
+            if (get_character_num == 0)
+            {
+                character_art[0].sprite = insert_art_character[get_character_num + 1];
+            }
+            else
+            {
+                character_art[0].sprite = insert_art_character[get_character_num - 1];
+            }
             //character_art[1].sprite = insert_art_character[0];
             character_art[0].GetComponent<Image>().color = new Color32(255, 255, 225, 75);
             character_art[1].GetComponent<Image>().color = new Color32(255, 255, 225, 255);
@@ -169,6 +177,14 @@ public class Novel_Multiple : MonoBehaviour
         else
         {
             character_art[0].sprite = insert_art_character[get_character_num];
+            if(get_character_num == 0)
+            {
+                character_art[1].sprite = insert_art_character[get_character_num + 1];
+            }
+            else
+            {
+                character_art[1].sprite = insert_art_character[get_character_num - 1];
+            }
             character_art[1].GetComponent<Image>().color = new Color32(255, 255, 225, 75);
             character_art[0].GetComponent<Image>().color = new Color32(255, 255, 225, 255);
         }
