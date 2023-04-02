@@ -27,6 +27,11 @@ public class Novel_Dio : MonoBehaviour
     
     void Start()
     {
+        Start_up();
+    }
+
+    public void Start_up()
+    {
         get_background = GameObject.FindGameObjectWithTag("background");
         character_art_reteve[0] = GameObject.FindGameObjectWithTag("left_char_image");
         character_art_reteve[1] = GameObject.FindGameObjectWithTag("Right_char_image");
@@ -44,15 +49,20 @@ public class Novel_Dio : MonoBehaviour
 
         character_name_box = get_character_name_box.GetComponent<TextMeshProUGUI>();
 
-        int im_char = 0;
-        foreach(Image im in character_art)
-        {
-            im.sprite = insert_art_character[im_char];
-            im_char = im_char + 1;
-        }
-        Background.sprite = insert_art_background;
+        /* int im_char = 0;
+         foreach (Image im in character_art)
+         {
+             im.sprite = insert_art_character[im_char];
+             im_char = im_char + 1;
+         }
+         */
 
-        if(dialogue_box == null)
+        character_art[0].sprite = insert_art_character[0];
+        character_art[1].sprite = insert_art_character[1];
+
+        Background.sprite = insert_art_background;
+        
+        if (dialogue_box == null)
         {
             Debug.Log("There is no dialogue_box connected");
         }
@@ -83,7 +93,7 @@ public class Novel_Dio : MonoBehaviour
 
     void Next_dialogue_line()
     {
-        dialogue_counter = dialogue_counter + 1;
+        //dialogue_counter = dialogue_counter + 1;
 
         if (dialogue_counter >= dialogue_character.Length)
         {
@@ -91,7 +101,10 @@ public class Novel_Dio : MonoBehaviour
         }
         else
         {
+            
+
             dialogue_box.text = dialogue_character[dialogue_counter];
+            dialogue_counter = dialogue_counter + 1;
             Next_character_line();
         }
 
@@ -125,12 +138,19 @@ public class Novel_Dio : MonoBehaviour
         {
             character_art[character_number - 1].GetComponent<Image>().color = new Color32(255, 255, 225, 75);
         }
-        character_art[character_number].GetComponent<Image>().color = new Color32(255, 255, 225, 225);
+        character_art[character_number].GetComponent<Image>().color = new Color32(255, 255, 225, 255);
 
     }
 
     void ActivateChoices()
     {
+        //dialogue_counter = 0;
         this.transform.GetComponent<Choice>().activated();
+    }
+
+
+    public void Reset_dialouge_counter()
+    {
+        dialogue_counter = 0;
     }
 }

@@ -32,6 +32,13 @@ public class Novel_Multiple : MonoBehaviour
 
     void Start()
     {
+        Start_up();
+    }
+
+    public void Start_up()
+    {
+        
+
         get_background = GameObject.FindGameObjectWithTag("background");
         character_art_reteve[0] = GameObject.FindGameObjectWithTag("left_char_image");
         character_art_reteve[1] = GameObject.FindGameObjectWithTag("Right_char_image");
@@ -63,13 +70,13 @@ public class Novel_Multiple : MonoBehaviour
             
         }*/
         character_art[0].sprite = insert_art_character[0];
-        character_art[1].sprite = insert_art_character[0];
-        
+        character_art[1].sprite = insert_art_character[1];
+
 
 
         Background.sprite = insert_art_background;
 
-        if(dialogue_box == null)
+        if (dialogue_box == null)
         {
             Debug.Log("There is no dialogue_box connected");
         }
@@ -92,15 +99,19 @@ public class Novel_Multiple : MonoBehaviour
         {
             //Debug.Log("notpe");
         }*/
-        dialogue_box.text = dialogue_character[0].Remove(0, 1); ;//dialogue_counter
-        character_name_box.text = characters[get_character_num];//character_number
+
+        //dialogue_box.text = dialogue_character[0].Remove(0, 1); ;//dialogue_counter
+        dialogue_box.text = "";
+
+        //character_name_box.text = characters[get_character_num];//character_number
+        character_name_box.text = "";
 
         Next_character_art_image();
     }
 
     void Next_dialogue_line()
     {
-        dialogue_counter = dialogue_counter + 1;
+        
 
         if (dialogue_counter >= dialogue_character.Length)
         {
@@ -110,18 +121,21 @@ public class Novel_Multiple : MonoBehaviour
         {
             //dialogue_box.text = dialogue_character[dialogue_counter];
             /*int*/
+            
 
-
-
-            get_character_num = Int32.Parse(dialogue_character[character_number][0].ToString());
+            get_character_num = Int32.Parse(dialogue_character[dialogue_counter][0].ToString());
 
             /*string*/
-            character_name_box.text = characters[Int32.Parse(dialogue_character[character_number][0].ToString())];
+            Debug.Log(character_name_box);
+            Debug.Log(get_character_num);
+            character_name_box.text = characters[get_character_num];
             temp_string = characters[get_character_num];
             //temp_string = temp_string.Remove(0, 1);
             dialogue_box.text = dialogue_character[dialogue_counter].Remove(0, 1);
 
             Next_character_line();
+
+            dialogue_counter = dialogue_counter + 1;
         }
 
     }
@@ -147,11 +161,30 @@ public class Novel_Multiple : MonoBehaviour
         
         if(character_number == 0)
         {
+            character_art[1].sprite = insert_art_character[get_character_num];
+            if (get_character_num == 0)
+            {
+                character_art[0].sprite = insert_art_character[get_character_num + 1];
+            }
+            else
+            {
+                character_art[0].sprite = insert_art_character[get_character_num - 1];
+            }
+            //character_art[1].sprite = insert_art_character[0];
             character_art[0].GetComponent<Image>().color = new Color32(255, 255, 225, 75);
             character_art[1].GetComponent<Image>().color = new Color32(255, 255, 225, 255);
         }
         else
         {
+            character_art[0].sprite = insert_art_character[get_character_num];
+            if(get_character_num == 0)
+            {
+                character_art[1].sprite = insert_art_character[get_character_num + 1];
+            }
+            else
+            {
+                character_art[1].sprite = insert_art_character[get_character_num - 1];
+            }
             character_art[1].GetComponent<Image>().color = new Color32(255, 255, 225, 75);
             character_art[0].GetComponent<Image>().color = new Color32(255, 255, 225, 255);
         }
@@ -160,6 +193,13 @@ public class Novel_Multiple : MonoBehaviour
 
     void ActivateChoices()
     {
+        //dialogue_counter = 0;
         this.transform.GetComponent<Choice>().activated();
+    }
+
+
+    public void Reset_dialouge_counter()
+    {
+        dialogue_counter = 0;
     }
 }
