@@ -213,7 +213,7 @@ public class Novel_Multiple : MonoBehaviour
                 character_art[0].GetComponent<Image>().color = new Color32(255, 255, 225, 75);
                 character_art[1].GetComponent<Image>().color = new Color32(255, 255, 225, 255);
             }
-            else (Chacter_Speaking[dialogue_counter] == Character_Speak.Right_side)
+            else if (Chacter_Speaking[dialogue_counter] == Character_Speak.Right_side)
             {
                 character_art[1].GetComponent<Image>().color = new Color32(255, 255, 225, 75);
                 character_art[0].GetComponent<Image>().color = new Color32(255, 255, 225, 255);
