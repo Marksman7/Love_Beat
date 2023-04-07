@@ -5,10 +5,21 @@ using UnityEngine.UI;
 using TMPro;
 using System;
 
+public enum Character_Speak
+{
+    Left_side, Right_side
+}
+
+
 public class Novel_Multiple : MonoBehaviour
 {
+    public Character_Speak[] Chacter_Speaking;
+
     public string[] characters;
     public string[] dialogue_character;
+
+    
+
 
     private GameObject get_background;
     private Image Background;
@@ -189,7 +200,29 @@ public class Novel_Multiple : MonoBehaviour
             character_art[0].GetComponent<Image>().color = new Color32(255, 255, 225, 255);
         }
 
+
+        character_speaking();
     }
+
+    void character_speaking()
+    {
+        if(Chacter_Speaking.Length > dialogue_counter)
+        {
+            if (Chacter_Speaking[dialogue_counter] == Character_Speak.Left_side)
+            {
+                character_art[0].GetComponent<Image>().color = new Color32(255, 255, 225, 75);
+                character_art[1].GetComponent<Image>().color = new Color32(255, 255, 225, 255);
+            }
+            else (Chacter_Speaking[dialogue_counter] == Character_Speak.Right_side)
+            {
+                character_art[1].GetComponent<Image>().color = new Color32(255, 255, 225, 75);
+                character_art[0].GetComponent<Image>().color = new Color32(255, 255, 225, 255);
+            }
+        }
+
+        
+    }
+
 
     void ActivateChoices()
     {
