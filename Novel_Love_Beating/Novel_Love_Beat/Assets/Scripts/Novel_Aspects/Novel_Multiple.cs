@@ -29,6 +29,8 @@ public class Novel_Multiple : MonoBehaviour
     private TextMeshProUGUI dialogue_box;
     private TextMeshProUGUI character_name_box;
 
+    private Sprite[] recod_character_show = { null, null};
+
     private GameObject get_dialogue_box;
     private GameObject get_character_name_box;
 
@@ -176,10 +178,12 @@ public class Novel_Multiple : MonoBehaviour
             if (get_character_num == 0)
             {
                 character_art[0].sprite = insert_art_character[get_character_num + 1];
+                recod_character_show[0] = insert_art_character[get_character_num + 1];
             }
             else
             {
                 character_art[0].sprite = insert_art_character[get_character_num - 1];
+                recod_character_show[0] = insert_art_character[get_character_num - 1];
             }
             //character_art[1].sprite = insert_art_character[0];
             character_art[0].GetComponent<Image>().color = new Color32(255, 255, 225, 75);
@@ -191,10 +195,12 @@ public class Novel_Multiple : MonoBehaviour
             if(get_character_num == 0)
             {
                 character_art[1].sprite = insert_art_character[get_character_num + 1];
+                recod_character_show[0] = insert_art_character[get_character_num + 1];
             }
             else
             {
                 character_art[1].sprite = insert_art_character[get_character_num - 1];
+                recod_character_show[0] = insert_art_character[get_character_num + 1];
             }
             character_art[1].GetComponent<Image>().color = new Color32(255, 255, 225, 75);
             character_art[0].GetComponent<Image>().color = new Color32(255, 255, 225, 255);
@@ -210,11 +216,15 @@ public class Novel_Multiple : MonoBehaviour
         {
             if (Chacter_Speaking[dialogue_counter] == Character_Speak.Left_side)
             {
+                character_art[0].sprite = recod_character_show[0];
+                character_art[1].sprite = recod_character_show[1];
                 character_art[0].GetComponent<Image>().color = new Color32(255, 255, 225, 75);
                 character_art[1].GetComponent<Image>().color = new Color32(255, 255, 225, 255);
             }
             else if (Chacter_Speaking[dialogue_counter] == Character_Speak.Right_side)
             {
+                character_art[0].sprite = recod_character_show[1];
+                character_art[1].sprite = recod_character_show[0];
                 character_art[1].GetComponent<Image>().color = new Color32(255, 255, 225, 75);
                 character_art[0].GetComponent<Image>().color = new Color32(255, 255, 225, 255);
             }
