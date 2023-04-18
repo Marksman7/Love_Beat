@@ -23,10 +23,29 @@ public class TimeLineSpawner : MonoBehaviour
 
     public float show_time_tracker = 0; //this is here for people to come pare the times
 
+    private AudioSource audio_source;
+
+    public float wait_to_start_music = 4.0f;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+
+        if(GetComponent<AudioSource>() != null)
+        {
+            audio_source = GetComponent<AudioSource>();
+            Invoke("Play_and_loop", wait_to_start_music);
+        }
+        else
+        {
+            Debug.Log("Does not have anything in the debug output");
+        }
+    }
+
+    void Play_and_loop()
+    {
+        audio_source.Play();
+        audio_source.loop = true;
     }
 
     // Update is called once per frame
