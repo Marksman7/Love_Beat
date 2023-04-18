@@ -225,7 +225,16 @@ public class Choice : MonoBehaviour
                 Debug.Log("forgot to add a modual in the next_node_set_active array, (located in the modual under choice");
             }
             player_choices.GetComponent<button_Choice>().get_new_moduel(wait);
-            hold_points.GetComponent<Point_Holder>().update_points(char_num, char_point);
+
+            if(hold_points != null && hold_points.GetComponent<Point_Holder>().character_points.Length >  4)
+            {
+                hold_points.GetComponent<Point_Holder>().update_points(char_num, char_point);
+            }
+            else
+            {
+                Debug.Log("You forgot to add Point_holder prefab or set it up");
+            }
+
             if(this.gameObject.GetComponent<Novel_Multiple>() != null)
             {
                 this.gameObject.GetComponent<Novel_Multiple>().Reset_dialouge_counter();

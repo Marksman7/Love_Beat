@@ -85,7 +85,9 @@ public class Novel_Dio : MonoBehaviour
         {
             //Debug.Log("notpe");
         }*/
-        dialogue_box.text = dialogue_character[0];//dialogue_counter
+        //dialogue_box.text = dialogue_character[0];//dialogue_counter
+
+        dialogue_box.text = "";
         character_name_box.text = characters[character_number];//character_number
 
         Next_character_art_image();
