@@ -2857,7 +2857,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2843476546552778549, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
       propertyPath: button_choice_title.Array.size
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 2843476546552778549, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
       propertyPath: button_choice_title.Array.data[0]
@@ -2870,6 +2870,14 @@ PrefabInstance:
     - target: {fileID: 2843476546552778549, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
       propertyPath: button_choice_title.Array.data[2]
       value: We should go find it!
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778549, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: button_choice_title.Array.data[3]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778549, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: button_choice_title.Array.data[4]
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 2843476546552778549, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
       propertyPath: next_node_set_active.Array.data[0]
