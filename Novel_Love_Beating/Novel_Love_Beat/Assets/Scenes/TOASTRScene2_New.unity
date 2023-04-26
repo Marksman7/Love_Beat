@@ -2385,6 +2385,22 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5773993169614518545, guid: d73ca75c59a6c7943985b83280d9e3f3, type: 3}
+      propertyPath: character_number.Array.data[0]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5773993169614518545, guid: d73ca75c59a6c7943985b83280d9e3f3, type: 3}
+      propertyPath: character_number.Array.data[1]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5773993169614518545, guid: d73ca75c59a6c7943985b83280d9e3f3, type: 3}
+      propertyPath: character_points.Array.data[0]
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5773993169614518545, guid: d73ca75c59a6c7943985b83280d9e3f3, type: 3}
+      propertyPath: character_points.Array.data[1]
+      value: -5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5773993169614518545, guid: d73ca75c59a6c7943985b83280d9e3f3, type: 3}
       propertyPath: button_choice_title.Array.data[0]
       value: Always happy to help if it's you!
       objectReference: {fileID: 0}
