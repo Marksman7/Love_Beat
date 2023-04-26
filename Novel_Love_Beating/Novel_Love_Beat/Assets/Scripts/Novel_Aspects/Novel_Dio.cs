@@ -90,6 +90,8 @@ public class Novel_Dio : MonoBehaviour
         dialogue_box.text = "";
         character_name_box.text = characters[character_number];//character_number
 
+        Next_dialogue_line();
+
         Next_character_art_image();
     }
 

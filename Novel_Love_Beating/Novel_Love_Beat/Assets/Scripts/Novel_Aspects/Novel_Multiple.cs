@@ -7,7 +7,7 @@ using System;
 
 public enum Character_Speak
 {
-    Left_side, Right_side
+    No_Change, Left_side, Right_side
 }
 
 
@@ -119,6 +119,7 @@ public class Novel_Multiple : MonoBehaviour
         //character_name_box.text = characters[get_character_num];//character_number
         character_name_box.text = "";
 
+        Next_dialogue_line();
         Next_character_art_image();
     }
 
@@ -206,27 +207,33 @@ public class Novel_Multiple : MonoBehaviour
             character_art[0].GetComponent<Image>().color = new Color32(255, 255, 225, 255);
         }
 
-
         character_speaking();
+
+
     }
 
     void character_speaking()
     {
         if(Chacter_Speaking.Length > dialogue_counter)
         {
-            if (Chacter_Speaking[dialogue_counter] == Character_Speak.Left_side)
+            if (Chacter_Speaking[dialogue_counter] != Character_Speak.No_Change && Chacter_Speaking[dialogue_counter] != null)
             {
-                character_art[0].sprite = recod_character_show[0];
-                character_art[1].sprite = recod_character_show[1];
-                character_art[0].GetComponent<Image>().color = new Color32(255, 255, 225, 75);
-                character_art[1].GetComponent<Image>().color = new Color32(255, 255, 225, 255);
-            }
-            else if (Chacter_Speaking[dialogue_counter] == Character_Speak.Right_side)
-            {
-                character_art[0].sprite = recod_character_show[1];
-                character_art[1].sprite = recod_character_show[0];
-                character_art[1].GetComponent<Image>().color = new Color32(255, 255, 225, 75);
-                character_art[0].GetComponent<Image>().color = new Color32(255, 255, 225, 255);
+
+            
+                if (Chacter_Speaking[dialogue_counter] == Character_Speak.Left_side)
+                {
+                    character_art[0].sprite = recod_character_show[0];
+                    character_art[1].sprite = recod_character_show[1];
+                    character_art[0].GetComponent<Image>().color = new Color32(255, 255, 225, 75);
+                    character_art[1].GetComponent<Image>().color = new Color32(255, 255, 225, 255);
+                }
+                else if (Chacter_Speaking[dialogue_counter] == Character_Speak.Right_side)
+                {
+                    character_art[0].sprite = recod_character_show[1];
+                    character_art[1].sprite = recod_character_show[0];
+                    character_art[1].GetComponent<Image>().color = new Color32(255, 255, 225, 75);
+                    character_art[0].GetComponent<Image>().color = new Color32(255, 255, 225, 255);
+                }
             }
         }
 
