@@ -23,7 +23,7 @@ public class Novel_Dio : MonoBehaviour
     private GameObject[] character_art_reteve = { null, null};
 
     private int character_number = 0;
-    private int dialogue_counter = 0;
+    private int dialogue_counter = 1;
     
     void Start()
     {
@@ -88,9 +88,10 @@ public class Novel_Dio : MonoBehaviour
         //dialogue_box.text = dialogue_character[0];//dialogue_counter
 
         dialogue_box.text = "";
+        dialogue_box.text = dialogue_character[0];
         character_name_box.text = characters[character_number];//character_number
 
-        Next_dialogue_line();
+        //Next_dialogue_line();
 
         Next_character_art_image();
     }
