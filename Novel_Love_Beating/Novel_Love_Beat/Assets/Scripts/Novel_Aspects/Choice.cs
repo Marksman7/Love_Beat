@@ -199,6 +199,7 @@ public class Choice : MonoBehaviour
         Nextscene(choices_scene[4], character_number[4], character_points[4], 4);
     }
 
+
     private void nono()
     {
         active_choices();
@@ -208,6 +209,7 @@ public class Choice : MonoBehaviour
         
     }
 
+    //send to the next scene
     private void Nextscene(int scene_num, int char_num, int char_point, int next_modual_num)
     {
         if (scene_num == next_scren_num)

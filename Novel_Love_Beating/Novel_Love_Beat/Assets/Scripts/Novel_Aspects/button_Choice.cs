@@ -22,7 +22,7 @@ public class button_Choice : MonoBehaviour
     {
         Invoke("wait_here", wait);
     }
-
+    //this is a small wait for everything to get the coorect componets on time
     private void wait_here()
     {
         get_moduel = GameObject.FindGameObjectWithTag("active_moduel");
