@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 36fbb9275079b84478c5fa359e906099
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Lipstick
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 88ba0600490b20049853ab144b723012, type: 3}
+  - {fileID: 12800000, guid: 9da92ceea3fc8174cbeacb8a0f053222, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

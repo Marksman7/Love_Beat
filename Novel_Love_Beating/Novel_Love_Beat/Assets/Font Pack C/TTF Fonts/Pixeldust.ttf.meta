@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: d266003a217e65c4aa3a2563f2a1b661
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Pixeldust
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: dda9cb95766b4924b9946c9eb9fb8d95, type: 3}
+  - {fileID: 12800000, guid: 7945bb6e521183749aa184ef80d7962e, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

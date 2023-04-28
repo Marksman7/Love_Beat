@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 007c34ecdf18f804fb6e719f501dfc4b
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Lexico
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 62208ff1b2e0f784f9e034c8328db7f2, type: 3}
+  - {fileID: 12800000, guid: 18e74f66f8a1b1943bfd8e4b5a23a417, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

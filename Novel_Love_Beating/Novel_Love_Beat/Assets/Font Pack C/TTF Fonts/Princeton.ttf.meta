@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 83e899883116104468c5ea3ba937f0dd
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Princeton
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 22e0411172753a243a783a4042ed0360, type: 3}
+  - {fileID: 12800000, guid: 8d17549bbcd1afd43a83187cd6ae5ab1, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 8ae68e2d35eed594bb426c943da31fba
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Pixely
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 3a97b7f49ae4f1c489ac35b246fdfb55, type: 3}
+  - {fileID: 12800000, guid: d240246cc4fa90a459955f298e46ba5b, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

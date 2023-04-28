@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 694e7ebbd82fb9c44bf5310be08a2ec1
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Pedestrian
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 917d58ac27f5cdb4f8bfa3bc91f4148a, type: 3}
+  - {fileID: 12800000, guid: eb0fc94f9f6802344989ba05f4e18457, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
