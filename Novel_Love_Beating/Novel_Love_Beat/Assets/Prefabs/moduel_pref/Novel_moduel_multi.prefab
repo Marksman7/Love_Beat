@@ -45,6 +45,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7552884a3f29ee340a0dfbaea3ed331b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Chacter_Speaking: 
   characters:
   - 0
   - 1
@@ -78,7 +79,7 @@ MonoBehaviour:
   - food
   character_points: 0000000000000000000000000000000000000000
   character_number: 0000000000000000000000000000000000000000
-  choices_scene: 00000000000000000100000001000000ffffffff
+  choices_scene: ffffffffffffffffffffffffffffffffffffffff
   next_node_set_active:
   - {fileID: 0}
   - {fileID: 0}

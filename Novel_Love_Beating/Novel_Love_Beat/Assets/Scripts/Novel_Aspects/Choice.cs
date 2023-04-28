@@ -199,6 +199,7 @@ public class Choice : MonoBehaviour
         Nextscene(choices_scene[4], character_number[4], character_points[4], 4);
     }
 
+
     private void nono()
     {
         active_choices();
@@ -208,6 +209,7 @@ public class Choice : MonoBehaviour
         
     }
 
+    //send to the next scene
     private void Nextscene(int scene_num, int char_num, int char_point, int next_modual_num)
     {
         if (scene_num == next_scren_num)
@@ -225,7 +227,16 @@ public class Choice : MonoBehaviour
                 Debug.Log("forgot to add a modual in the next_node_set_active array, (located in the modual under choice");
             }
             player_choices.GetComponent<button_Choice>().get_new_moduel(wait);
-            hold_points.GetComponent<Point_Holder>().update_points(char_num, char_point);
+
+            if(hold_points != null && hold_points.GetComponent<Point_Holder>().character_points.Length >  4)
+            {
+                hold_points.GetComponent<Point_Holder>().update_points(char_num, char_point);
+            }
+            else
+            {
+                Debug.Log("You forgot to add Point_holder prefab or set it up");
+            }
+
             if(this.gameObject.GetComponent<Novel_Multiple>() != null)
             {
                 this.gameObject.GetComponent<Novel_Multiple>().Reset_dialouge_counter();

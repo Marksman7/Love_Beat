@@ -23,10 +23,29 @@ public class TimeLineSpawner : MonoBehaviour
 
     public float show_time_tracker = 0; //this is here for people to come pare the times
 
+    private AudioSource audio_source;
+
+    public float wait_to_start_music = 4.0f;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+
+        if(GetComponent<AudioSource>() != null)
+        {
+            audio_source = GetComponent<AudioSource>();
+            Invoke("Play_and_loop", wait_to_start_music);
+        }
+        else
+        {
+            Debug.Log("Does not have anything in the debug output");
+        }
+    }
+
+    void Play_and_loop()
+    {
+        audio_source.Play();
+        audio_source.loop = true;
     }
 
     // Update is called once per frame
@@ -59,7 +78,16 @@ public class TimeLineSpawner : MonoBehaviour
 
     void spawn_object()
     {
-        Instantiate(Collectables[spawned_object_type_num[time_track_counter]], transform.TransformPoint(700, spawn_set[spawn_on_line[time_track_counter] - 1], -600), new Quaternion(0, 0, 0, 0));
+        if (spawn_on_line.Length > time_track_counter && time_line.Length > time_track_counter && spawned_object_type_num.Length > time_track_counter)
+        {
+            Debug.Log(spawn_on_line[time_track_counter] + " = " + spawn_set[spawn_on_line[time_track_counter] - 1]);
+            Instantiate(Collectables[spawned_object_type_num[time_track_counter]], transform.TransformDirection(700, spawn_set[spawn_on_line[time_track_counter] - 1], -600), new Quaternion(0, 0, 0, 0));
+
+        }
+        else
+        {
+            Debug.Log("THere is no more");
+        }
     }
 
 
