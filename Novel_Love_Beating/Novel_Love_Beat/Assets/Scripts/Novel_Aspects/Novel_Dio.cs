@@ -6,6 +6,8 @@ using TMPro;
 
 public class Novel_Dio : MonoBehaviour
 {
+    //legacy
+
     public string[] characters;
     public string[] dialogue_character;
 

@@ -5,17 +5,21 @@ using UnityEngine.UI;
 using TMPro;
 using System;
 
+
+//enum that keeps track of which side for the speaking character to be on while talking
 public enum Character_Speak
 {
     No_Change, Left_side, Right_side
 }
 
-
+//
 public class Novel_Multiple : MonoBehaviour
 {
+    
     public Character_Speak[] Chacter_Speaking;
-
+    //Character names
     public string[] characters;
+    //dialouge
     public string[] dialogue_character;
 
     
@@ -24,6 +28,7 @@ public class Novel_Multiple : MonoBehaviour
     private GameObject get_background;
     private Image Background;
     private Image[] character_art = { null, null, null, null, null};
+    //Character art
     public Sprite[] insert_art_character;
     public Sprite insert_art_background;
     private TextMeshProUGUI dialogue_box;
@@ -37,6 +42,8 @@ public class Novel_Multiple : MonoBehaviour
     private GameObject[] character_art_reteve = { null, null};
 
     private int character_number = 0;
+
+    //line of dislouge it on
     private int dialogue_counter = 0;
 
     int get_character_num = 0;
@@ -47,7 +54,7 @@ public class Novel_Multiple : MonoBehaviour
     {
         Start_up();
     }
-
+    //On start event's
     public void Start_up()
     {
         
@@ -106,6 +113,7 @@ public class Novel_Multiple : MonoBehaviour
         }
     }
 
+    //Part of the start up when setting up the first dialouge (This was set up for switch when the team wanted a pause and did not want a pause betwean strands of dialouge)
     void Start_dialogue_line()
     {
         /*if(characters[0] != null)
@@ -123,6 +131,8 @@ public class Novel_Multiple : MonoBehaviour
         Next_character_art_image();
     }
 
+
+    //does the next line of dialouge
     void Next_dialogue_line()
     {
         
@@ -154,6 +164,7 @@ public class Novel_Multiple : MonoBehaviour
 
     }
 
+    //Makesure the next character number is 0
     void Next_character_line()
     {
 
@@ -170,6 +181,7 @@ public class Novel_Multiple : MonoBehaviour
         }
     }
 
+    //switches character art, and makes on image a bit tranluite because they are not talking
     void Next_character_art_image()
     {
         
@@ -196,7 +208,15 @@ public class Novel_Multiple : MonoBehaviour
             if(get_character_num == 0)
             {
                 character_art[1].sprite = insert_art_character[get_character_num + 1];
-                recod_character_show[0] = insert_art_character[get_character_num + 1];
+                if (insert_art_character.Length <= get_character_num + 1)
+                {
+                    recod_character_show[0] = insert_art_character[get_character_num];
+                }
+                else
+                {
+
+                    recod_character_show[0] = insert_art_character[get_character_num + 1];
+                }
             }
             else
             {
@@ -220,6 +240,7 @@ public class Novel_Multiple : MonoBehaviour
 
     }
 
+    //Switches the side so the character is speaking on the correct side
     void character_speaking()
     {
         if(Chacter_Speaking.Length > dialogue_counter)
@@ -248,14 +269,14 @@ public class Novel_Multiple : MonoBehaviour
         
     }
 
-
+    //activates the class activate choices
     void ActivateChoices()
     {
         //dialogue_counter = 0;
         this.transform.GetComponent<Choice>().activated();
     }
 
-
+    //restes the dialouge
     public void Reset_dialouge_counter()
     {
         dialogue_counter = 0;
