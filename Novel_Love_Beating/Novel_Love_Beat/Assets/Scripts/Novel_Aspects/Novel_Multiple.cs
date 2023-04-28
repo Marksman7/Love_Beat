@@ -201,7 +201,15 @@ public class Novel_Multiple : MonoBehaviour
             else
             {
                 character_art[1].sprite = insert_art_character[get_character_num - 1];
-                recod_character_show[0] = insert_art_character[get_character_num + 1];
+                if(insert_art_character.Length <= get_character_num + 1)
+                {
+                    recod_character_show[0] = insert_art_character[get_character_num];
+                }
+                else
+                {
+
+                    recod_character_show[0] = insert_art_character[get_character_num + 1];
+                }
             }
             character_art[1].GetComponent<Image>().color = new Color32(255, 255, 225, 75);
             character_art[0].GetComponent<Image>().color = new Color32(255, 255, 225, 255);
