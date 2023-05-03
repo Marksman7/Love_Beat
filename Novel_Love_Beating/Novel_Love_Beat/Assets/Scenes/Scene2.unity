@@ -575,6 +575,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2843476546552778549, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: choices_scene.Array.data[2]
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778549, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
       propertyPath: button_choice_title.Array.data[1]
       value: Go to TOASTR
       objectReference: {fileID: 0}

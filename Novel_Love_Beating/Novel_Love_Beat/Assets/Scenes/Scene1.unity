@@ -123,6 +123,159 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &33121734
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2843476546552778548, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: m_RootOrder
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778548, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778548, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778548, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778548, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778548, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778548, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778548, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778548, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778548, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778548, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778549, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: choices_scene.Array.data[0]
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778549, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: choices_scene.Array.data[1]
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778549, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: choices_scene.Array.data[2]
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778549, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: choices_scene.Array.data[3]
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778549, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: next_node_set_active.Array.data[0]
+      value: 
+      objectReference: {fileID: 956478925}
+    - target: {fileID: 2843476546552778549, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: next_node_set_active.Array.data[1]
+      value: 
+      objectReference: {fileID: 956478925}
+    - target: {fileID: 2843476546552778549, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: next_node_set_active.Array.data[2]
+      value: 
+      objectReference: {fileID: 956478925}
+    - target: {fileID: 2843476546552778549, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: next_node_set_active.Array.data[3]
+      value: 
+      objectReference: {fileID: 956478925}
+    - target: {fileID: 2843476546552778549, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: next_node_set_active.Array.data[4]
+      value: 
+      objectReference: {fileID: 956478925}
+    - target: {fileID: 2843476546552778550, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: m_Name
+      value: Novel3Choice5pt2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778550, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778551, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: insert_art_background
+      value: 
+      objectReference: {fileID: 21300000, guid: 60eafa5aecc89b1458a3a2a0183d82b9, type: 3}
+    - target: {fileID: 2843476546552778551, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: characters.Array.data[0]
+      value: Frog
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778551, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: characters.Array.data[1]
+      value: Captain
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778551, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: dialogue_character.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778551, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: dialogue_character.Array.data[0]
+      value: 'Bark! Bark! '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778551, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: dialogue_character.Array.data[1]
+      value: (She's insane)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778551, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: dialogue_character.Array.data[2]
+      value: (She's insane)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778551, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: dialogue_character.Array.data[3]
+      value: (She's insane)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778551, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: dialogue_character.Array.data[4]
+      value: (She's insane)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778551, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: dialogue_character.Array.data[5]
+      value: (She's insane)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778551, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: dialogue_character.Array.data[6]
+      value: (She's insane)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778551, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: dialogue_character.Array.data[7]
+      value: (She's insane)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778551, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: insert_art_character.Array.data[0]
+      value: 
+      objectReference: {fileID: 21300000, guid: 2aea57be9d627a24d94d719e2e4fcac4, type: 3}
+    - target: {fileID: 2843476546552778551, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: insert_art_character.Array.data[1]
+      value: 
+      objectReference: {fileID: 21300000, guid: 05f562e0e4cf94e4d844d4f9b86a764a, type: 3}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
 --- !u!1001 &82015286
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -189,7 +342,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2843476546552778548, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
       propertyPath: m_RootOrder
-      value: 18
+      value: 22
       objectReference: {fileID: 0}
     - target: {fileID: 2843476546552778548, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
       propertyPath: m_LocalPosition.x
@@ -311,6 +464,11 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 2843476546552778550, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
   m_PrefabInstance: {fileID: 1071147253}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &236933813 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2843476546552778550, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+  m_PrefabInstance: {fileID: 33121734}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &339824627
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -320,7 +478,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2843476546552778548, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
       propertyPath: m_RootOrder
-      value: 24
+      value: 28
       objectReference: {fileID: 0}
     - target: {fileID: 2843476546552778548, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
       propertyPath: m_LocalPosition.x
@@ -388,7 +546,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2843476546552778550, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2843476546552778551, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
       propertyPath: insert_art_background
@@ -436,7 +594,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2843476546552778548, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
       propertyPath: m_RootOrder
-      value: 21
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 2843476546552778548, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
       propertyPath: m_LocalPosition.x
@@ -574,11 +732,327 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 2843476546552778550, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
   m_PrefabInstance: {fileID: 360501337}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &399346448
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2843476546552778548, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: m_RootOrder
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778548, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778548, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778548, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778548, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778548, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778548, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778548, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778548, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778548, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778548, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778549, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: choices_scene.Array.data[0]
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778549, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: choices_scene.Array.data[1]
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778549, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: choices_scene.Array.data[2]
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778549, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: choices_scene.Array.data[3]
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778549, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: button_choice_title.Array.data[1]
+      value: Pet the dog
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778549, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: button_choice_title.Array.data[2]
+      value: Do not
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778549, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: next_node_set_active.Array.data[0]
+      value: 
+      objectReference: {fileID: 1138184960}
+    - target: {fileID: 2843476546552778549, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: next_node_set_active.Array.data[1]
+      value: 
+      objectReference: {fileID: 1138184960}
+    - target: {fileID: 2843476546552778549, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: next_node_set_active.Array.data[2]
+      value: 
+      objectReference: {fileID: 1754048985}
+    - target: {fileID: 2843476546552778549, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: next_node_set_active.Array.data[3]
+      value: 
+      objectReference: {fileID: 1754048985}
+    - target: {fileID: 2843476546552778549, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: next_node_set_active.Array.data[4]
+      value: 
+      objectReference: {fileID: 1138184960}
+    - target: {fileID: 2843476546552778550, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: m_Name
+      value: Novel3Choice5pt5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778550, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778551, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: insert_art_background
+      value: 
+      objectReference: {fileID: 21300000, guid: 60eafa5aecc89b1458a3a2a0183d82b9, type: 3}
+    - target: {fileID: 2843476546552778551, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: characters.Array.data[0]
+      value: Juno
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778551, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: characters.Array.data[1]
+      value: Captain
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778551, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: dialogue_character.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778551, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: dialogue_character.Array.data[0]
+      value: You should have the knowledge of a typical 23 year-old human. Maybe
+        you just need a moment to catch up..?
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778551, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: dialogue_character.Array.data[1]
+      value: A...Pomeranian?
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778551, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: dialogue_character.Array.data[2]
+      value: (She nods.) A small but hearty breed.
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778551, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: dialogue_character.Array.data[3]
+      value: (She's insane)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778551, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: dialogue_character.Array.data[4]
+      value: (She's insane)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778551, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: dialogue_character.Array.data[5]
+      value: (She's insane)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778551, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: dialogue_character.Array.data[6]
+      value: (She's insane)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778551, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: dialogue_character.Array.data[7]
+      value: (She's insane)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778551, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: insert_art_character.Array.data[0]
+      value: 
+      objectReference: {fileID: 21300000, guid: 382a25dc39cb3fe42b394c1cebb5fa6e, type: 3}
+    - target: {fileID: 2843476546552778551, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: insert_art_character.Array.data[1]
+      value: 
+      objectReference: {fileID: 21300000, guid: 05f562e0e4cf94e4d844d4f9b86a764a, type: 3}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
 --- !u!1 &428829929 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2843476546552778550, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
   m_PrefabInstance: {fileID: 1046611248}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &458853581
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2843476546552778548, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: m_RootOrder
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778548, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778548, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778548, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778548, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778548, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778548, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778548, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778548, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778548, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778548, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778549, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: choices_scene.Array.data[0]
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778549, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: choices_scene.Array.data[1]
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778549, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: choices_scene.Array.data[2]
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778549, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: choices_scene.Array.data[3]
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778549, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: next_node_set_active.Array.data[0]
+      value: 
+      objectReference: {fileID: 2081397077}
+    - target: {fileID: 2843476546552778549, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: next_node_set_active.Array.data[1]
+      value: 
+      objectReference: {fileID: 2081397077}
+    - target: {fileID: 2843476546552778549, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: next_node_set_active.Array.data[2]
+      value: 
+      objectReference: {fileID: 2081397077}
+    - target: {fileID: 2843476546552778549, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: next_node_set_active.Array.data[3]
+      value: 
+      objectReference: {fileID: 2081397077}
+    - target: {fileID: 2843476546552778549, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: next_node_set_active.Array.data[4]
+      value: 
+      objectReference: {fileID: 2081397077}
+    - target: {fileID: 2843476546552778550, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: m_Name
+      value: Novel3Choice5pt3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778550, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778551, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: insert_art_background
+      value: 
+      objectReference: {fileID: 21300000, guid: 60eafa5aecc89b1458a3a2a0183d82b9, type: 3}
+    - target: {fileID: 2843476546552778551, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: characters.Array.data[0]
+      value: Juno
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778551, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: characters.Array.data[1]
+      value: Captain
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778551, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: dialogue_character.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778551, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: dialogue_character.Array.data[0]
+      value: He's a pomeranian to be precise. (Frog pants excitedly as she picks
+        him up and scratches him on the head.)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778551, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: dialogue_character.Array.data[1]
+      value: (She's insane)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778551, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: dialogue_character.Array.data[2]
+      value: (She's insane)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778551, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: dialogue_character.Array.data[3]
+      value: (She's insane)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778551, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: dialogue_character.Array.data[4]
+      value: (She's insane)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778551, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: dialogue_character.Array.data[5]
+      value: (She's insane)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778551, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: dialogue_character.Array.data[6]
+      value: (She's insane)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778551, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: dialogue_character.Array.data[7]
+      value: (She's insane)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778551, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: insert_art_character.Array.data[0]
+      value: 
+      objectReference: {fileID: 21300000, guid: 382a25dc39cb3fe42b394c1cebb5fa6e, type: 3}
+    - target: {fileID: 2843476546552778551, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: insert_art_character.Array.data[1]
+      value: 
+      objectReference: {fileID: 21300000, guid: 05f562e0e4cf94e4d844d4f9b86a764a, type: 3}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
 --- !u!1001 &504788378
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -724,15 +1198,15 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 05f562e0e4cf94e4d844d4f9b86a764a, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
---- !u!1 &539016451 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5773993169614518546, guid: d73ca75c59a6c7943985b83280d9e3f3, type: 3}
-  m_PrefabInstance: {fileID: 1120152075}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &581548269 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2843476546552778550, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
   m_PrefabInstance: {fileID: 1526046725}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &683873487 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2843476546552778550, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+  m_PrefabInstance: {fileID: 2056776674}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &803042403
 PrefabInstance:
@@ -840,7 +1314,7 @@ PrefabInstance:
     - target: {fileID: 2843476546552778549, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
       propertyPath: next_node_set_active.Array.data[4]
       value: 
-      objectReference: {fileID: 539016451}
+      objectReference: {fileID: 683873487}
     - target: {fileID: 2843476546552778550, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
       propertyPath: m_Name
       value: Novel3
@@ -982,7 +1456,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2843476546552778550, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2843476546552778551, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
       propertyPath: insert_art_background
@@ -1021,6 +1495,165 @@ PrefabInstance:
       propertyPath: insert_art_character.Array.data[1]
       value: 
       objectReference: {fileID: 21300000, guid: afb3b2655dcd5634abb97fcdd6934f70, type: 3}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+--- !u!1 &915541268 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2843476546552778550, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+  m_PrefabInstance: {fileID: 399346448}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &926259306
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2843476546552778548, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: m_RootOrder
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778548, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778548, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778548, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778548, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778548, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778548, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778548, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778548, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778548, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778548, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778549, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: choices_scene.Array.data[0]
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778549, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: choices_scene.Array.data[1]
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778549, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: choices_scene.Array.data[2]
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778549, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: choices_scene.Array.data[3]
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778549, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: next_node_set_active.Array.data[0]
+      value: 
+      objectReference: {fileID: 915541268}
+    - target: {fileID: 2843476546552778549, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: next_node_set_active.Array.data[1]
+      value: 
+      objectReference: {fileID: 915541268}
+    - target: {fileID: 2843476546552778549, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: next_node_set_active.Array.data[2]
+      value: 
+      objectReference: {fileID: 915541268}
+    - target: {fileID: 2843476546552778549, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: next_node_set_active.Array.data[3]
+      value: 
+      objectReference: {fileID: 915541268}
+    - target: {fileID: 2843476546552778549, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: next_node_set_active.Array.data[4]
+      value: 
+      objectReference: {fileID: 915541268}
+    - target: {fileID: 2843476546552778550, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: m_Name
+      value: Novel3Choice5pt4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778550, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778551, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: insert_art_background
+      value: 
+      objectReference: {fileID: 21300000, guid: 60eafa5aecc89b1458a3a2a0183d82b9, type: 3}
+    - target: {fileID: 2843476546552778551, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: characters.Array.data[0]
+      value: Juno
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778551, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: characters.Array.data[1]
+      value: Captain
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778551, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: dialogue_character.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778551, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: dialogue_character.Array.data[0]
+      value: 'You should know what a dog is, don''t you? When I cloned you I should
+        have programmed common sense into you. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778551, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: dialogue_character.Array.data[1]
+      value: (She's insane)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778551, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: dialogue_character.Array.data[2]
+      value: (She's insane)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778551, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: dialogue_character.Array.data[3]
+      value: (She's insane)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778551, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: dialogue_character.Array.data[4]
+      value: (She's insane)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778551, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: dialogue_character.Array.data[5]
+      value: (She's insane)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778551, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: dialogue_character.Array.data[6]
+      value: (She's insane)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778551, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: dialogue_character.Array.data[7]
+      value: (She's insane)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778551, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: insert_art_character.Array.data[0]
+      value: 
+      objectReference: {fileID: 21300000, guid: 382a25dc39cb3fe42b394c1cebb5fa6e, type: 3}
+    - target: {fileID: 2843476546552778551, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: insert_art_character.Array.data[1]
+      value: 
+      objectReference: {fileID: 21300000, guid: 05f562e0e4cf94e4d844d4f9b86a764a, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
 --- !u!1001 &931259209
@@ -1148,6 +1781,11 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 5c8a353f39ce9f5409e484ccb70f419d, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+--- !u!1 &956478925 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2843476546552778550, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+  m_PrefabInstance: {fileID: 458853581}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1022105388
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1456,7 +2094,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2843476546552778548, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
       propertyPath: m_RootOrder
-      value: 19
+      value: 23
       objectReference: {fileID: 0}
     - target: {fileID: 2843476546552778548, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1772,7 +2410,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2843476546552778548, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
       propertyPath: m_RootOrder
-      value: 23
+      value: 27
       objectReference: {fileID: 0}
     - target: {fileID: 2843476546552778548, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1877,186 +2515,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 2843476546552778550, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
   m_PrefabInstance: {fileID: 1118961321}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &1120152075
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 5773993169614518542, guid: d73ca75c59a6c7943985b83280d9e3f3, type: 3}
-      propertyPath: insert_art_background
-      value: 
-      objectReference: {fileID: 21300000, guid: 60eafa5aecc89b1458a3a2a0183d82b9, type: 3}
-    - target: {fileID: 5773993169614518542, guid: d73ca75c59a6c7943985b83280d9e3f3, type: 3}
-      propertyPath: characters.Array.data[0]
-      value: Juno
-      objectReference: {fileID: 0}
-    - target: {fileID: 5773993169614518542, guid: d73ca75c59a6c7943985b83280d9e3f3, type: 3}
-      propertyPath: characters.Array.data[1]
-      value: Frog
-      objectReference: {fileID: 0}
-    - target: {fileID: 5773993169614518542, guid: d73ca75c59a6c7943985b83280d9e3f3, type: 3}
-      propertyPath: characters.Array.data[2]
-      value: Captain
-      objectReference: {fileID: 0}
-    - target: {fileID: 5773993169614518542, guid: d73ca75c59a6c7943985b83280d9e3f3, type: 3}
-      propertyPath: dialogue_character.Array.size
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 5773993169614518542, guid: d73ca75c59a6c7943985b83280d9e3f3, type: 3}
-      propertyPath: dialogue_character.Array.data[0]
-      value: 0What, him?
-      objectReference: {fileID: 0}
-    - target: {fileID: 5773993169614518542, guid: d73ca75c59a6c7943985b83280d9e3f3, type: 3}
-      propertyPath: dialogue_character.Array.data[1]
-      value: 1Bark!
-      objectReference: {fileID: 0}
-    - target: {fileID: 5773993169614518542, guid: d73ca75c59a6c7943985b83280d9e3f3, type: 3}
-      propertyPath: dialogue_character.Array.data[2]
-      value: 0That's Frog. He's a dog, a pomeranian to be precise.
-      objectReference: {fileID: 0}
-    - target: {fileID: 5773993169614518542, guid: d73ca75c59a6c7943985b83280d9e3f3, type: 3}
-      propertyPath: dialogue_character.Array.data[3]
-      value: 1(Frog pants excitedly as she picks him up and scratches him on the
-        head)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5773993169614518542, guid: d73ca75c59a6c7943985b83280d9e3f3, type: 3}
-      propertyPath: dialogue_character.Array.data[4]
-      value: '0You know what a dog is, don''t you? When I created you I should have
-        programmed common sense into you. '
-      objectReference: {fileID: 0}
-    - target: {fileID: 5773993169614518542, guid: d73ca75c59a6c7943985b83280d9e3f3, type: 3}
-      propertyPath: dialogue_character.Array.data[5]
-      value: '2Created me? '
-      objectReference: {fileID: 0}
-    - target: {fileID: 5773993169614518542, guid: d73ca75c59a6c7943985b83280d9e3f3, type: 3}
-      propertyPath: dialogue_character.Array.data[6]
-      value: 0Maybe it's too early in the day for that discussion. I think you need
-        a moment to catch up first.
-      objectReference: {fileID: 0}
-    - target: {fileID: 5773993169614518542, guid: d73ca75c59a6c7943985b83280d9e3f3, type: 3}
-      propertyPath: dialogue_character.Array.data[7]
-      value: 2A....pomeranian...
-      objectReference: {fileID: 0}
-    - target: {fileID: 5773993169614518542, guid: d73ca75c59a6c7943985b83280d9e3f3, type: 3}
-      propertyPath: dialogue_character.Array.data[8]
-      value: 0A small but hearty breed.
-      objectReference: {fileID: 0}
-    - target: {fileID: 5773993169614518542, guid: d73ca75c59a6c7943985b83280d9e3f3, type: 3}
-      propertyPath: dialogue_character.Array.data[9]
-      value: 1(Frog looks up at you)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5773993169614518542, guid: d73ca75c59a6c7943985b83280d9e3f3, type: 3}
-      propertyPath: insert_art_character.Array.data[0]
-      value: 
-      objectReference: {fileID: 21300000, guid: 382a25dc39cb3fe42b394c1cebb5fa6e, type: 3}
-    - target: {fileID: 5773993169614518542, guid: d73ca75c59a6c7943985b83280d9e3f3, type: 3}
-      propertyPath: insert_art_character.Array.data[1]
-      value: 
-      objectReference: {fileID: 21300000, guid: 2aea57be9d627a24d94d719e2e4fcac4, type: 3}
-    - target: {fileID: 5773993169614518542, guid: d73ca75c59a6c7943985b83280d9e3f3, type: 3}
-      propertyPath: insert_art_character.Array.data[2]
-      value: 
-      objectReference: {fileID: 21300000, guid: 05f562e0e4cf94e4d844d4f9b86a764a, type: 3}
-    - target: {fileID: 5773993169614518544, guid: d73ca75c59a6c7943985b83280d9e3f3, type: 3}
-      propertyPath: m_RootOrder
-      value: 16
-      objectReference: {fileID: 0}
-    - target: {fileID: 5773993169614518544, guid: d73ca75c59a6c7943985b83280d9e3f3, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5773993169614518544, guid: d73ca75c59a6c7943985b83280d9e3f3, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5773993169614518544, guid: d73ca75c59a6c7943985b83280d9e3f3, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5773993169614518544, guid: d73ca75c59a6c7943985b83280d9e3f3, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5773993169614518544, guid: d73ca75c59a6c7943985b83280d9e3f3, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5773993169614518544, guid: d73ca75c59a6c7943985b83280d9e3f3, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5773993169614518544, guid: d73ca75c59a6c7943985b83280d9e3f3, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5773993169614518544, guid: d73ca75c59a6c7943985b83280d9e3f3, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5773993169614518544, guid: d73ca75c59a6c7943985b83280d9e3f3, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5773993169614518544, guid: d73ca75c59a6c7943985b83280d9e3f3, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5773993169614518545, guid: d73ca75c59a6c7943985b83280d9e3f3, type: 3}
-      propertyPath: choices_scene.Array.data[0]
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5773993169614518545, guid: d73ca75c59a6c7943985b83280d9e3f3, type: 3}
-      propertyPath: choices_scene.Array.data[1]
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5773993169614518545, guid: d73ca75c59a6c7943985b83280d9e3f3, type: 3}
-      propertyPath: choices_scene.Array.data[2]
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5773993169614518545, guid: d73ca75c59a6c7943985b83280d9e3f3, type: 3}
-      propertyPath: choices_scene.Array.data[3]
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5773993169614518545, guid: d73ca75c59a6c7943985b83280d9e3f3, type: 3}
-      propertyPath: button_choice_title.Array.data[0]
-      value: Pet the dog
-      objectReference: {fileID: 0}
-    - target: {fileID: 5773993169614518545, guid: d73ca75c59a6c7943985b83280d9e3f3, type: 3}
-      propertyPath: button_choice_title.Array.data[1]
-      value: DO NOT
-      objectReference: {fileID: 0}
-    - target: {fileID: 5773993169614518545, guid: d73ca75c59a6c7943985b83280d9e3f3, type: 3}
-      propertyPath: button_choice_title.Array.data[2]
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 5773993169614518545, guid: d73ca75c59a6c7943985b83280d9e3f3, type: 3}
-      propertyPath: button_choice_title.Array.data[3]
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 5773993169614518545, guid: d73ca75c59a6c7943985b83280d9e3f3, type: 3}
-      propertyPath: button_choice_title.Array.data[4]
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 5773993169614518545, guid: d73ca75c59a6c7943985b83280d9e3f3, type: 3}
-      propertyPath: next_node_set_active.Array.data[0]
-      value: 
-      objectReference: {fileID: 1138184960}
-    - target: {fileID: 5773993169614518545, guid: d73ca75c59a6c7943985b83280d9e3f3, type: 3}
-      propertyPath: next_node_set_active.Array.data[1]
-      value: 
-      objectReference: {fileID: 1754048985}
-    - target: {fileID: 5773993169614518546, guid: d73ca75c59a6c7943985b83280d9e3f3, type: 3}
-      propertyPath: m_Name
-      value: Novel3Choice5
-      objectReference: {fileID: 0}
-    - target: {fileID: 5773993169614518546, guid: d73ca75c59a6c7943985b83280d9e3f3, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: d73ca75c59a6c7943985b83280d9e3f3, type: 3}
 --- !u!1 &1138184960 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2843476546552778550, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
@@ -2081,7 +2539,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2843476546552778548, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
       propertyPath: m_RootOrder
-      value: 25
+      value: 29
       objectReference: {fileID: 0}
     - target: {fileID: 2843476546552778548, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2149,7 +2607,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2843476546552778549, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
       propertyPath: button_choice_title.Array.data[2]
-      value: Happy Birthday!
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 2843476546552778549, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
       propertyPath: next_node_set_active.Array.data[0]
@@ -2603,7 +3061,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 27
+  m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1453954695
 PrefabInstance:
@@ -2614,7 +3072,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2843476546552778548, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
       propertyPath: m_RootOrder
-      value: 20
+      value: 24
       objectReference: {fileID: 0}
     - target: {fileID: 2843476546552778548, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2972,7 +3430,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3106076114737526971, guid: 3421b5b60842065479a4bc436fcffdb4, type: 3}
       propertyPath: m_RootOrder
-      value: 26
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 3106076114737526971, guid: 3421b5b60842065479a4bc436fcffdb4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3646,6 +4104,159 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 2843476546552778550, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
   m_PrefabInstance: {fileID: 504788378}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2056776674
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2843476546552778548, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: m_RootOrder
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778548, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778548, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778548, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778548, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778548, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778548, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778548, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778548, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778548, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778548, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778549, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: choices_scene.Array.data[0]
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778549, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: choices_scene.Array.data[1]
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778549, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: choices_scene.Array.data[2]
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778549, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: choices_scene.Array.data[3]
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778549, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: next_node_set_active.Array.data[0]
+      value: 
+      objectReference: {fileID: 236933813}
+    - target: {fileID: 2843476546552778549, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: next_node_set_active.Array.data[1]
+      value: 
+      objectReference: {fileID: 236933813}
+    - target: {fileID: 2843476546552778549, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: next_node_set_active.Array.data[2]
+      value: 
+      objectReference: {fileID: 236933813}
+    - target: {fileID: 2843476546552778549, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: next_node_set_active.Array.data[3]
+      value: 
+      objectReference: {fileID: 236933813}
+    - target: {fileID: 2843476546552778549, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: next_node_set_active.Array.data[4]
+      value: 
+      objectReference: {fileID: 236933813}
+    - target: {fileID: 2843476546552778550, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: m_Name
+      value: Novel3Choice5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778550, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778551, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: insert_art_background
+      value: 
+      objectReference: {fileID: 21300000, guid: 60eafa5aecc89b1458a3a2a0183d82b9, type: 3}
+    - target: {fileID: 2843476546552778551, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: characters.Array.data[0]
+      value: Juno
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778551, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: characters.Array.data[1]
+      value: Captain
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778551, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: dialogue_character.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778551, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: dialogue_character.Array.data[0]
+      value: 'What, him? '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778551, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: dialogue_character.Array.data[1]
+      value: (She's insane)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778551, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: dialogue_character.Array.data[2]
+      value: (She's insane)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778551, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: dialogue_character.Array.data[3]
+      value: (She's insane)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778551, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: dialogue_character.Array.data[4]
+      value: (She's insane)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778551, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: dialogue_character.Array.data[5]
+      value: (She's insane)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778551, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: dialogue_character.Array.data[6]
+      value: (She's insane)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778551, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: dialogue_character.Array.data[7]
+      value: (She's insane)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2843476546552778551, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: insert_art_character.Array.data[0]
+      value: 
+      objectReference: {fileID: 21300000, guid: 382a25dc39cb3fe42b394c1cebb5fa6e, type: 3}
+    - target: {fileID: 2843476546552778551, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+      propertyPath: insert_art_character.Array.data[1]
+      value: 
+      objectReference: {fileID: 21300000, guid: 05f562e0e4cf94e4d844d4f9b86a764a, type: 3}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
 --- !u!1 &2060967962 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2843476546552778550, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
@@ -3708,6 +4319,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 876e7ae9f1722f146b7f1100afbb64c6, type: 3}
+--- !u!1 &2081397077 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2843476546552778550, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
+  m_PrefabInstance: {fileID: 926259306}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2083101532 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2843476546552778550, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
@@ -3722,7 +4338,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2843476546552778548, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
       propertyPath: m_RootOrder
-      value: 17
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 2843476546552778548, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3826,12 +4442,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2843476546552778551, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
       propertyPath: dialogue_character.Array.data[0]
-      value: (He wags his curly tail happily upon your touch, his soft fur mellows
-        you somehow.)
+      value: Bark! Bark!
       objectReference: {fileID: 0}
     - target: {fileID: 2843476546552778551, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
       propertyPath: dialogue_character.Array.data[1]
-      value: Bark! Bark!
+      value: (He wags his curly tail happily upon your touch, his soft fur mellows
+        you somehow.)
       objectReference: {fileID: 0}
     - target: {fileID: 2843476546552778551, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
       propertyPath: dialogue_character.Array.data[2]
@@ -3857,7 +4473,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2843476546552778548, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
       propertyPath: m_RootOrder
-      value: 22
+      value: 26
       objectReference: {fileID: 0}
     - target: {fileID: 2843476546552778548, guid: 5607e283ed5c62c4f9fb318fc7327a10, type: 3}
       propertyPath: m_LocalPosition.x
