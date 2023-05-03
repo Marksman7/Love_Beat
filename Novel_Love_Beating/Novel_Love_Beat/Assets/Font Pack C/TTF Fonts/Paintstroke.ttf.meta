@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 29bfc4970d5fdc7488b05000175914bc
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Paintstroke
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 296d666da6fb8e849b004f30834c02dd, type: 3}
+  - {fileID: 12800000, guid: 459d53afbc4464441bd2245647220b7e, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

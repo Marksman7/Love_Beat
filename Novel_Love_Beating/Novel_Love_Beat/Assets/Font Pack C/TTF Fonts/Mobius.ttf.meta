@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 634c7948d0a96c54ead2ca786ae8d35f
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Mobius
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: c584d28c635a2da46a80751f3b9ae27d, type: 3}
+  - {fileID: 12800000, guid: ee59cb7d06e65394b81a494ae728e949, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

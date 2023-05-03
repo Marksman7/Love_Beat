@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: cfdebdfacb2bf9143ac4d8d525def932
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Naughty
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 922dd9f46cfe14f49b0d8d0323a18a0a, type: 3}
+  - {fileID: 12800000, guid: b76c58fb339ee724b9955751ce867980, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

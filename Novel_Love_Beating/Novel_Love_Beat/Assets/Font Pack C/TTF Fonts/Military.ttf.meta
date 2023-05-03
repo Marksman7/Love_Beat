@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: b17a4b3ea94d0c44aa3fd12719fbd6d5
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Military
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: eba80486cab7a4146b95e1cca538b82f, type: 3}
+  - {fileID: 12800000, guid: 2ea2d7eab1af7534d93a9ef20f2bc08d, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 18004933704818b4daa2a7627dee2296
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Quill
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 06379df4f97a0e140a73b4d9706d2961, type: 3}
+  - {fileID: 12800000, guid: ebebb175f81022b438ecfc53a40fd02a, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

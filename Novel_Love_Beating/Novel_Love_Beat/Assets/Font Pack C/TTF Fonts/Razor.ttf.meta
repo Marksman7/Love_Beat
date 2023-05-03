@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: b277b2036c677004e8356e444270ed90
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Razor
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: b8a89ac2b9ce64d48bcdcb2a0ec1e2d8, type: 3}
+  - {fileID: 12800000, guid: 3fbe7a074ed8f764e86ed7cf14af798e, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

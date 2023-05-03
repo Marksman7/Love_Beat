@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 7354839b2b80622438bee9966f0a4d49
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Racetrack
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 75626d3bb9f93ed4691cbaa834caae6f, type: 3}
+  - {fileID: 12800000, guid: 946a558eef834ee4a9819a3e1a1d36a7, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

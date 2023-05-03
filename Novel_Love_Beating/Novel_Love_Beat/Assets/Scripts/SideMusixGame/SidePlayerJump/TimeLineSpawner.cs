@@ -78,7 +78,16 @@ public class TimeLineSpawner : MonoBehaviour
 
     void spawn_object()
     {
-        Instantiate(Collectables[spawned_object_type_num[time_track_counter]], transform.TransformPoint(700, spawn_set[spawn_on_line[time_track_counter] - 1], -600), new Quaternion(0, 0, 0, 0));
+        if (spawn_on_line.Length > time_track_counter && time_line.Length > time_track_counter && spawned_object_type_num.Length > time_track_counter)
+        {
+            Debug.Log(spawn_on_line[time_track_counter] + " = " + spawn_set[spawn_on_line[time_track_counter] - 1]);
+            Instantiate(Collectables[spawned_object_type_num[time_track_counter]], transform.TransformDirection(700, spawn_set[spawn_on_line[time_track_counter] - 1], -600), new Quaternion(0, 0, 0, 0));
+
+        }
+        else
+        {
+            Debug.Log("THere is no more");
+        }
     }
 
 

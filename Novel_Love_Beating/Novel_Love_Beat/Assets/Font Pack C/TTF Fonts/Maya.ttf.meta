@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 662d768e048e60c4497489645a1738a3
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Maya
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 0368e4f0b598d46448bb6815f2511531, type: 3}
+  - {fileID: 12800000, guid: a5d2a514385425640acea02a70cef931, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
