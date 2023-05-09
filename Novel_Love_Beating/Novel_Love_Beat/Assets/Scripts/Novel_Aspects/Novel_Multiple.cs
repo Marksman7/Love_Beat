@@ -22,8 +22,8 @@ public class Novel_Multiple : MonoBehaviour
     //dialouge
     public string[] dialogue_character;
 
-    
-
+    //keeps traSck of next modual called
+    private bool good_space = true;
 
     private GameObject get_background;
     private Image Background;
@@ -107,10 +107,15 @@ public class Novel_Multiple : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Space) && dialogue_counter < dialogue_character.Length)
+        if(good_space == true)
         {
-            Next_dialogue_line();
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                Next_dialogue_line();
+            }
+
         }
+        
     }
 
     //Part of the start up when setting up the first dialouge (This was set up for switch when the team wanted a pause and did not want a pause betwean strands of dialouge)
@@ -273,6 +278,8 @@ public class Novel_Multiple : MonoBehaviour
     void ActivateChoices()
     {
         //dialogue_counter = 0;
+
+        good_space = false;
         this.transform.GetComponent<Choice>().activated();
     }
 
@@ -280,5 +287,6 @@ public class Novel_Multiple : MonoBehaviour
     public void Reset_dialouge_counter()
     {
         dialogue_counter = 0;
+        good_space = true;
     }
 }

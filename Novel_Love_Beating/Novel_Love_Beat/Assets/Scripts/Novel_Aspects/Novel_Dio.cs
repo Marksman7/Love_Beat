@@ -26,7 +26,10 @@ public class Novel_Dio : MonoBehaviour
 
     private int character_number = 0;
     private int dialogue_counter = 1;
-    
+
+    //Keeps the space off
+    private bool good_space = true;
+
     void Start()
     {
         Start_up();
@@ -75,9 +78,12 @@ public class Novel_Dio : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Space) && dialogue_counter < dialogue_character.Length)
+        if (good_space == true)
         {
-            Next_dialogue_line();
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                Next_dialogue_line();
+            }
         }
     }
 
@@ -152,6 +158,8 @@ public class Novel_Dio : MonoBehaviour
     void ActivateChoices()
     {
         //dialogue_counter = 0;
+
+        good_space = false;
         this.transform.GetComponent<Choice>().activated();
     }
 
@@ -159,5 +167,7 @@ public class Novel_Dio : MonoBehaviour
     public void Reset_dialouge_counter()
     {
         dialogue_counter = 0;
+        good_space = true;
+
     }
 }
