@@ -11,7 +11,7 @@ public class Player_01_Three_way : MonoBehaviour
 
     public GameObject[] animations;
 
-    //private bool inaction_animation = false;
+    private bool inaction_animation = false;
 
     private bool down_active = false;
 
@@ -34,6 +34,7 @@ public class Player_01_Three_way : MonoBehaviour
         animations[1].SetActive(false);
         animations[2].SetActive(false);
         animations[3].SetActive(false);
+        inaction_animation = false;
     }
 
     // Update is called once per frame
@@ -61,27 +62,30 @@ public class Player_01_Three_way : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Q) && this.gameObject.transform.position.y < move_set[2])
         {
             stay_on_target = move_set[2];
-            //inaction_animation = true;
+            inaction_animation = true;
             animations[0].SetActive(false);
             animations[3].SetActive(true);
+            Invoke("set_animations", .5f);
             in_motion = true;
         }
 
         if (Input.GetKeyDown(KeyCode.W) && this.gameObject.transform.position.y < move_set[1])
         {
             stay_on_target = move_set[1];
-            //inaction_animation = true;
+            inaction_animation = true;
             animations[0].SetActive(false);
             animations[2].SetActive(true);
+            Invoke("set_animations", .5f);
             in_motion = true;
         }
 
-        if (Input.GetKeyDown(KeyCode.E) && this.gameObject.transform.position.y > move_set[0])
+        if (Input.GetKeyDown(KeyCode.E))
         {
             stay_on_target = move_set[0];
-           // inaction_animation = true;
+            inaction_animation = true;
             animations[0].SetActive(false);
-            animations[3].SetActive(true);
+            animations[1].SetActive(true);
+            Invoke("set_animations", .5f);
             //in_motion = true;
         }
     }

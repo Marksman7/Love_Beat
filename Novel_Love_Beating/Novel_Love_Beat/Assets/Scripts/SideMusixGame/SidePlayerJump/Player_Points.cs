@@ -18,13 +18,23 @@ public class Player_Points : MonoBehaviour
         
     }
 
-    private void OnTriggerEnter(Collider other)
+    /*private void OnTriggerEnter(Collider other)
     {
         if(other.gameObject.CompareTag("Collectable"))
         {
             points = points + 1;
             //other.GetComponent<Collectable_pick>().destory_this();
             Destroy(other);
+        }
+    }*/
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Collectable"))
+        {
+            points = points + 1;
+            //other.GetComponent<Collectable_pick>().destory_this();
+            Destroy(collision.gameObject);
         }
     }
 }

@@ -614,7 +614,7 @@ GameObject:
   - component: {fileID: 8259393054134755358}
   m_Layer: 0
   m_Name: Player_01_there_button
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -628,7 +628,7 @@ Transform:
   m_GameObject: {fileID: 8259393054134755352}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 502, y: 223, z: -600}
-  m_LocalScale: {x: 10, y: 10, z: 10}
+  m_LocalScale: {x: 15, y: 15, z: 15}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 668101596}
@@ -730,12 +730,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d8fc091f899f6f4cbe7a433e5f4c796, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player:
+  animations:
   - {fileID: 1157149483}
   - {fileID: 2459637757677172220}
   - {fileID: 6942693109548520863}
   - {fileID: 7296683384994878617}
-  speed: 36
+  speed: 84
   in_motion: 0
   stay_on_target: 0
 --- !u!114 &8259393054134755358
