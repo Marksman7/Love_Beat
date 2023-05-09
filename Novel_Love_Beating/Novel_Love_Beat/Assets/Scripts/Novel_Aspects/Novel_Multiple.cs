@@ -107,7 +107,7 @@ public class Novel_Multiple : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Space))
+        if(Input.GetKeyDown(KeyCode.Space) && dialogue_counter < dialogue_character.Length)
         {
             Next_dialogue_line();
         }
