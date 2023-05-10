@@ -5,12 +5,6 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Scenes/SampleScene.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
-  - enabled: 0
-    path: Assets/Scenes/SideGame.unity
-    guid: 7494f1b0361399445bbecd59343c8fb0
   - enabled: 1
     path: Assets/Scenes/Scene1.unity
     guid: fc0031e77645ffa458f873b507855b05
@@ -20,12 +14,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/TOASTRScene2_New.unity
     guid: 0c4d7e24abd3d7b47863bd2a31b8857c
-  - enabled: 0
-    path: Assets/Scenes/Happy Birthday.unity
-    guid: 1aac612e4975a6e448b2ed5e1ab56a26
-  - enabled: 0
-    path: Assets/Scenes/TOASTR Song.unity
-    guid: 54095db067f6b074098af11e7da77e56
   - enabled: 1
     path: Assets/Scenes/TOASTRScene3_New.unity
     guid: 61853d4fc8ce9a54ca1c381fb9819397
@@ -44,7 +32,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/TOASTRScene5.unity
     guid: ad42484864bd64940ac4be536cc8bb8a
-  - enabled: 0
-    path: Assets/Scenes/Scene2.unity
-    guid: 69c92963133deef4498c153fee9dc37e
+  - enabled: 1
+    path: Assets/Scenes/JunoScene3.unity
+    guid: 39593f5e3f81f2947a62d61b42f7cfc0
   m_configObjects: {}
