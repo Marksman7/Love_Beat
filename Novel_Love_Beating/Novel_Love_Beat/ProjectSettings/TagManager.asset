@@ -24,6 +24,11 @@ TagManager:
   - get_choices_04_button
   - get_choices_05_button
   - hold_ponts
+  - Go_away
+  - Go_away_02
+  - Go_away_03
+  - Go_away_04
+  - Go_away_05
   layers:
   - Default
   - TransparentFX
@@ -31,7 +36,7 @@ TagManager:
   - 
   - Water
   - UI
-  - 
+  - ignore
   - 
   - 
   - 

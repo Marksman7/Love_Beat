@@ -33,6 +33,9 @@ public class Choice : MonoBehaviour
 
     private GameObject hold_points;
 
+    //back grounds for UI
+    private GameObject[] UI_stuff = { null, null, null, null, null };
+
     private void Start()
     {
         Start_up();
@@ -41,6 +44,12 @@ public class Choice : MonoBehaviour
 
     public void Start_up()
     {
+        UI_stuff[0] = GameObject.FindGameObjectWithTag("Go_away");
+        UI_stuff[1] = GameObject.FindGameObjectWithTag("Go_away_02");
+        UI_stuff[2] = GameObject.FindGameObjectWithTag("Go_away_03");
+        UI_stuff[3] = GameObject.FindGameObjectWithTag("Go_away_04");
+        UI_stuff[4] = GameObject.FindGameObjectWithTag("Go_away_05");
+
         hold_points = GameObject.FindGameObjectWithTag("hold_ponts");
 
         //Debug.Log(this.gameObject);
@@ -109,7 +118,15 @@ public class Choice : MonoBehaviour
         {
             cho.SetActive(true);
         }
+
+        foreach (GameObject ui_background in UI_stuff)
+        {
+            ui_background.SetActive(true);
+        }
+
     }
+    
+
 
     private void inactive_choices()
     {
@@ -118,6 +135,13 @@ public class Choice : MonoBehaviour
             if(choices_scene[q] < -1 || button_choice_title[q] == "")
             {
                 get_choices[q].SetActive(false);
+                if(q < UI_stuff.Length)
+                {
+                    if (UI_stuff[q] != null)
+                    {
+                        UI_stuff[q].SetActive(false);
+                    }
+                }
             }
         }
     }
