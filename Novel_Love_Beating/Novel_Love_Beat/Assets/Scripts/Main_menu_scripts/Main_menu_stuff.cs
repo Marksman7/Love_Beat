@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class Main_menu_stuff : MonoBehaviour
 {
+    public GameObject find_animation;
+
     public void NextScene()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
@@ -45,4 +47,21 @@ public class Main_menu_stuff : MonoBehaviour
             activate.GetComponent<Choice>().activat_choice_oustside();
         }
     }
+
+    public void extra_animation_on()
+    {
+        if (find_animation != null)
+        {
+            find_animation.SetActive(true);
+        }
+    }
+
+    public void extra_animation_off()
+    {
+        if(find_animation != null)
+        {
+            find_animation.SetActive(false);
+        }
+    }
+
 }
