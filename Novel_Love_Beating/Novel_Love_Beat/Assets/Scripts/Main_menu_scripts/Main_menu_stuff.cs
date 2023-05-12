@@ -35,4 +35,14 @@ public class Main_menu_stuff : MonoBehaviour
         Debug.Log("I am quiting now, but I'll be back later");
         Application.Quit();
     }
+
+    public void find_activation_buttons()
+    {
+        GameObject activate = GameObject.FindGameObjectWithTag("active_moduel");
+
+        if(activate != null)
+        {
+            activate.GetComponent<Choice>().activat_choice_oustside();
+        }
+    }
 }

@@ -35,6 +35,7 @@ public class Choice : MonoBehaviour
 
     //back grounds for UI
     private GameObject[] UI_stuff = { null, null, null, null, null };
+    
 
     private void Start()
     {
@@ -42,8 +43,10 @@ public class Choice : MonoBehaviour
     }
 
 
+
     public void Start_up()
     {
+
         UI_stuff[0] = GameObject.FindGameObjectWithTag("Go_away");
         UI_stuff[1] = GameObject.FindGameObjectWithTag("Go_away_02");
         UI_stuff[2] = GameObject.FindGameObjectWithTag("Go_away_03");
@@ -110,6 +113,11 @@ public class Choice : MonoBehaviour
 
         inactive_choices();
         player_choices.SetActive(false);
+    }
+
+    public void activat_choice_oustside()
+    {
+        active_choices();
     }
 
     private void active_choices()

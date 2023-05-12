@@ -51,7 +51,9 @@ public class button_Choice : MonoBehaviour
 
     public void Button02_click()
     {
-        get_moduel.GetComponent<Choice>().Button02_click();
+        
+            get_moduel.GetComponent<Choice>().Button02_click();
+        
     }
 
     public void Button03_click()
